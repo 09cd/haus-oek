@@ -1,21 +1,20 @@
 <script setup></script>
 
 <template>
-    <!-- TODO: Replace with Nuxt Link -->
     <nav class="navbar">
         <ul class="navbar-container">
             <li>
-                <a href="#" class="nav-link">About Me</a>
+                <NuxtLink to="/about-me" class="nav-link">About Me</NuxtLink>
             </li>
             <li>
-                <a href="#" class="nav-link">Contact</a>
+                <NuxtLink to="/contact" class="nav-link">Contact</NuxtLink>
             </li>
             <li>
-                <a href="#" class="nav-link">Blog</a>
+                <NuxtLink to="/blog" class="nav-link">Blog</NuxtLink>
             </li>
         </ul>
         <div class="navbar-logo">
-            <a href="#" class="nav-link">Code with Sway</a>
+            <NuxtLink to="/" class="nav-link">Code with Sway</NuxtLink>
         </div>
         <div class="navbar-menu">Menu</div>
     </nav>
