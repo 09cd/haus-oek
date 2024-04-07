@@ -22,8 +22,8 @@
 
 <style lang="scss">
 .navbar {
-    display: grid;
-    grid-template-columns: auto repeat(4, 1fr) auto;
+    display: flex;
+    justify-content: space-between;
     gap: 2rem;
     padding: 2rem;
 
@@ -33,15 +33,12 @@
         gap: 2rem;
 
         list-style: none;
-        grid-column: 1 / 2;
     }
 
     .navbar-logo {
-        grid-column: 3 / 6;
-    }
-
-    .navbar-menu {
-        grid-column: 6 / 7;
+        position: absolute;
+        left: calc(2rem + 40%);
+        top: 2rem;
     }
 
     .nav-link {
