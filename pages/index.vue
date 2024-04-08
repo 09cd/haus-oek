@@ -44,7 +44,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 2rem;
+    padding: 4rem 2rem 2rem;
     padding-left: calc(2rem + 40%);
 }
 
