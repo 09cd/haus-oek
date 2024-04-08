@@ -34,10 +34,9 @@
         </div>
         <div class="article">
             <div>Curabitur ac diam quis metus ultrices fermentum</div>
-            <div>December 23, 2024</div>
+            <div>December 23, 2023</div>
         </div>
     </div>
-    <AppFooter />
 </template>
 
 <style lang="scss">
