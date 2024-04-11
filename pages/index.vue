@@ -39,7 +39,7 @@
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .home-container {
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@
         display: flex;
         justify-content: space-between;
         border-bottom: 0.1rem solid $black;
-        padding: 0.2rem;
+        padding: 0.4rem 0;
     }
 
     .header {

@@ -26,7 +26,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 .container {
     padding: 4rem 2rem 0rem;
     padding-left: calc(2rem + 40%);
