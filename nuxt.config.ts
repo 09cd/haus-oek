@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
     devtools: { enabled: true },
     css: ["~/assets/scss/main.scss"],
+
     app: {
         head: {
             link: [
@@ -12,6 +13,7 @@ export default defineNuxtConfig({
             ],
         },
     },
+
     vite: {
         css: {
             preprocessorOptions: {
@@ -22,4 +24,6 @@ export default defineNuxtConfig({
             },
         },
     },
+
+    modules: ["@nuxt/content"],
 });
