@@ -1,4 +1,10 @@
-<script></script>
+<script setup lang="ts">
+const route = useRoute();
+
+const { data: posts } = await useAsyncData("blog", () =>
+    queryContent("blog").find()
+);
+</script>
 
 <template>
     <h1>Blogs</h1>
@@ -13,46 +19,15 @@
         <div class="blog-list">
             <div class="category">01 All Arcticles</div>
             <div class="all-blogs">
-                <div class="blog">
-                    <div class="blog-name">Nullam id enim sit amet</div>
-                    <div class="blog-date">March 03, 2024</div>
-                </div>
-                <div class="blog">
-                    <div class="blog-name">
-                        Sed consequat libero at magna sodales
-                    </div>
-                    <div class="blog-date">February 12, 2024</div>
-                </div>
-                <div class="blog">
-                    <div class="blog-name">
-                        Fusce at justo sit amet lorem iaculis lacinia
-                    </div>
-                    <div class="blog-date">January 05, 2024</div>
-                </div>
-                <div class="blog">
-                    <div class="blog-name">Proin at condimentum velit</div>
-                    <div class="blog-date">January 01, 2024</div>
-                </div>
-                <div class="blog">
-                    <div class="blog-name">
-                        Curabitur ac diam quis metus ultrices fermentum
-                    </div>
-                    <div class="blog-date">December, 2023</div>
-                </div>
-                <div class="blog">
-                    <div class="blog-name">Justo sit amet</div>
-                    <div class="blog-date">January 05, 2024</div>
-                </div>
-                <div class="blog">
-                    <div class="blog-name">Nullam id enim sit amet</div>
-                    <div class="blog-date">March 03, 2024</div>
-                </div>
-                <div class="blog">
-                    <div class="blog-name">
-                        Sed consequat libero at magna sodales
-                    </div>
-                    <div class="blog-date">February 12, 2024</div>
-                </div>
+                <NuxtLink
+                    :to="post._path"
+                    class="blog"
+                    v-for="post in posts"
+                    :key="post._id"
+                >
+                    <div class="blog-name">{{ post.title }}</div>
+                    <div class="blog-date">{{ post.date }}</div>
+                </NuxtLink>
             </div>
         </div>
     </div>
@@ -90,6 +65,11 @@ h1 {
 
         .all-blogs {
             padding-top: 2rem;
+
+            a {
+                color: $black;
+                text-decoration: none;
+            }
 
             .blog {
                 display: flex;
