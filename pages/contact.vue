@@ -15,10 +15,6 @@
     padding: 4rem 2rem 0rem;
     padding-left: calc(2rem + 40%);
 
-    .contact {
-        margin-top: 2rem;
-    }
-
     .contact,
     .message {
         text-align: justify;

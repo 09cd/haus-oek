@@ -5,6 +5,7 @@
         <div>Imprint, Privacy Policy</div>
         <div class="copyright">Copyright © 2024 Code With Sway</div>
     </footer>
+    <!-- <AppFooter /> -->
 </template>
 
 <style>
@@ -13,6 +14,7 @@
     padding: 0 2rem 2rem;
     position: absolute;
     bottom: 0;
+    left: 0;
     width: 100%;
 
     .copyright {

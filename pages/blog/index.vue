@@ -45,14 +45,13 @@ const formatDate = (dateString) => {
 
 <style lang="scss" scoped>
 h1 {
-    padding: 4rem 2rem 0;
+    padding: 4rem 2rem 2rem;
     padding-left: calc(2rem + 40%);
 }
 
 .blog-container {
     display: grid;
     grid-template-columns: 40% 1fr;
-    padding: 2rem 0;
     gap: 2rem;
 
     .categories {

@@ -32,7 +32,6 @@
     padding-left: calc(2rem + 40%);
 
     .about-me {
-        margin-top: 2rem;
         text-align: justify;
     }
 }

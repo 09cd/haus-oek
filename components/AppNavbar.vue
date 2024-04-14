@@ -26,6 +26,11 @@
     justify-content: space-between;
     gap: 2rem;
     padding: 2rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: $white;
+    // border-bottom: $black 0.1rem solid;
 
     .navbar-container {
         display: flex;
