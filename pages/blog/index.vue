@@ -4,6 +4,12 @@ const route = useRoute();
 const { data: posts } = await useAsyncData("blog", () =>
     queryContent("blog").find()
 );
+
+const formatDate = (dateString) => {
+    const options = { year: "numeric", month: "long", day: "numeric" };
+    const date = new Date(dateString);
+    return date.toLocaleDateString("en-US", options);
+};
 </script>
 
 <template>
@@ -26,7 +32,7 @@ const { data: posts } = await useAsyncData("blog", () =>
                     :key="post._id"
                 >
                     <div class="blog-name">{{ post.title }}</div>
-                    <div class="blog-date">{{ post.date }}</div>
+                    <div class="blog-date">{{ formatDate(post.date) }}</div>
                 </NuxtLink>
             </div>
         </div>
