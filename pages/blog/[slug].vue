@@ -1,7 +1,13 @@
-<script setup></script>
+<script setup>
+const route = useRoute();
+
+const { data } = await useAsyncData(`content-${route.path}`, () =>
+    queryContent().where({ _path: route.path }).findOne()
+);
+</script>
 
 <template>
     <main>
-        <ContentDoc />
+        <ContentRenderer :value="data" />
     </main>
 </template>
