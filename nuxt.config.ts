@@ -26,4 +26,10 @@ export default defineNuxtConfig({
     },
 
     modules: ["@nuxt/content"],
+
+    content: {
+        markdown: {
+            anchorLinks: false,
+        },
+    },
 });

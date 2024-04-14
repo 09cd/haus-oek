@@ -42,5 +42,18 @@ main {
     :deep(h1) {
         font-size: 2rem;
     }
+
+    :deep(h2) {
+        font-size: 1.25rem;
+        padding: 4rem 0 1.5rem;
+    }
+
+    :deep(img) {
+        height: 16rem;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 1rem;
+        margin-bottom: 3rem;
+    }
 }
 </style>
