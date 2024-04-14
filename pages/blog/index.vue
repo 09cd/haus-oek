@@ -5,6 +5,10 @@ const { data: posts } = await useAsyncData("blog", () =>
     queryContent("blog").find()
 );
 
+const allPosts = computed(() => {
+    return [...posts.value].sort((a, b) => new Date(b.date) - new Date(a.date));
+});
+
 const formatDate = (dateString) => {
     const options = { year: "numeric", month: "long", day: "numeric" };
     const date = new Date(dateString);
@@ -28,7 +32,7 @@ const formatDate = (dateString) => {
                 <NuxtLink
                     :to="post._path"
                     class="blog"
-                    v-for="post in posts"
+                    v-for="post in allPosts"
                     :key="post._id"
                 >
                     <div class="blog-name">{{ post.title }}</div>
