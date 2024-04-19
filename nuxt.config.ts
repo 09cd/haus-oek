@@ -27,9 +27,15 @@ export default defineNuxtConfig({
 
     modules: ["@nuxt/content"],
 
-    content: {
-        markdown: {
-            anchorLinks: false,
+    // content: {
+    //     markdown: {
+    //         anchorLinks: false,
+    //     },
+    // },
+
+    router: {
+        options: {
+            scrollBehaviorType: "smooth",
         },
     },
 });
