@@ -14,7 +14,7 @@
             </li>
         </ul>
         <div class="navbar-logo">
-            <NuxtLink to="/" class="nav-link">Code with Sway</NuxtLink>
+            <NuxtLink to="/" class="nav-link">Haus Oek</NuxtLink>
         </div>
         <div class="navbar-menu">Menu</div>
     </nav>
@@ -25,12 +25,12 @@
     display: flex;
     justify-content: space-between;
     gap: 2rem;
-    padding: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     position: sticky;
     top: 0;
     left: 0;
     background-color: $white;
-    // border-bottom: $black 0.1rem solid;
+    border-bottom: 1px solid $black;
 
     .navbar-container {
         display: flex;
@@ -43,7 +43,7 @@
     .navbar-logo {
         position: absolute;
         left: calc(2rem + 40%);
-        top: 2rem;
+        top: 1rem;
     }
 
     .nav-link {
