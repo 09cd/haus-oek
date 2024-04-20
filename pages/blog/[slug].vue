@@ -1,9 +1,50 @@
 <script setup>
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 const route = useRoute();
 
 const { data } = await useAsyncData(`content-${route.path}`, () =>
     queryContent().where({ _path: route.path }).findOne()
 );
+
+onMounted(() => {
+    document.querySelectorAll(".blog-part").forEach((part) => {
+        gsap.to(part, {
+            scrollTrigger: {
+                trigger: part,
+                start: "top+=4rem top",
+
+                // Refactor this
+
+                onEnter: () => {
+                    let href = part.querySelector("h2 a").getAttribute("href");
+                    document.querySelectorAll("main nav a").forEach((link) => {
+                        let navHref = link.getAttribute("href");
+                        if (navHref === `/blog/hello-world${href}`) {
+                            link.classList.add("active");
+                        } else {
+                            link.classList.remove("active");
+                        }
+                    });
+                },
+                onEnterBack: () => {
+                    let href = part.querySelector("h2 a").getAttribute("href");
+                    document.querySelectorAll("main nav a").forEach((link) => {
+                        let navHref = link.getAttribute("href");
+                        if (navHref === `/blog/hello-world${href}`) {
+                            link.classList.add("active");
+                        } else {
+                            link.classList.remove("active");
+                        }
+                    });
+                },
+            },
+        });
+    });
+});
 </script>
 
 <template>
@@ -42,7 +83,8 @@ main {
         gap: 0.75rem;
 
         a {
-            color: $black;
+            // color: $black;
+            color: grey;
             text-decoration: none;
         }
     }
@@ -79,5 +121,9 @@ main {
         border-radius: 1rem;
         margin-bottom: 3rem;
     }
+}
+
+.active {
+    color: $black;
 }
 </style>
