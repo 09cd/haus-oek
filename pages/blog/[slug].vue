@@ -10,6 +10,8 @@ const { data } = await useAsyncData(`content-${route.path}`, () =>
     queryContent().where({ _path: route.path }).findOne()
 );
 
+const allHeadings = ref([]);
+
 onMounted(() => {
     document.querySelectorAll(".blog-part").forEach((part) => {
         gsap.to(part, {
@@ -44,13 +46,21 @@ onMounted(() => {
             },
         });
     });
+
+    document.querySelectorAll("h2").forEach((heading) => {
+        allHeadings.value.push(heading.textContent);
+    });
+
+    for (let heading of allHeadings.value) {
+        console.log(heading);
+    }
 });
 </script>
 
 <template>
     <main>
         <nav>
-            <NuxtLink :to="{ path: route.path, hash: '#introduction' }"
+            <!-- <NuxtLink :to="{ path: route.path, hash: '#introduction' }"
                 >01 Introduction</NuxtLink
             >
             <NuxtLink
@@ -62,7 +72,18 @@ onMounted(() => {
             >
             <NuxtLink :to="{ path: route.path, hash: '#purrfect-nap' }"
                 >04 Purrfect Nap</NuxtLink
+            > -->
+
+            <NuxtLink
+                v-for="(heading, index) in allHeadings"
+                :key="heading"
+                :to="{
+                    path: route.path,
+                    hash: '#' + heading.toLowerCase().replace(/\s+/g, '-'),
+                }"
             >
+                {{ (index + 1).toString().padStart(2, "0") }} {{ heading }}
+            </NuxtLink>
         </nav>
         <ContentRenderer :value="data" />
     </main>
