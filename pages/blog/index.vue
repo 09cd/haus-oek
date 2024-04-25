@@ -14,26 +14,65 @@ const formatDate = (dateString) => {
     const date = new Date(dateString);
     return date.toLocaleDateString("en-US", options);
 };
+const activeCategory = ref("all");
+const filteredPosts = ref([...allPosts.value]);
+
+const filterPosts = (category) => {
+    activeCategory.value = category;
+    console.log(activeCategory.value);
+    if (category === "all") {
+        filteredPosts.value = allPosts.value;
+    } else {
+        filteredPosts.value = allPosts.value.filter(
+            (post) => post.category === category
+        );
+    }
+};
 </script>
 
 <template>
     <h1>Blogs</h1>
     <div class="blog-container">
         <div class="categories">
-            <div>01 All Arcticles</div>
-            <div>02 Programming</div>
-            <div>03 Web Design</div>
-            <div>04 Personal Development</div>
-            <div>05 Health</div>
+            <div
+                :class="{ active: activeCategory === 'all' }"
+                @click="filterPosts('all')"
+            >
+                01 All Arcticles
+            </div>
+            <div
+                :class="{ active: activeCategory === 'Programming' }"
+                @click="filterPosts('Programming')"
+            >
+                02 Programming
+            </div>
+            <div
+                :class="{ active: activeCategory === 'Web Design' }"
+                @click="filterPosts('Web Design')"
+            >
+                03 Web Design
+            </div>
+            <div
+                :class="{ active: activeCategory === 'Personal Development' }"
+                @click="filterPosts('Personal Development')"
+            >
+                04 Personal Development
+            </div>
+            <div
+                :class="{ active: activeCategory === 'Health' }"
+                @click="filterPosts('Health')"
+            >
+                05 Health
+            </div>
         </div>
         <div class="blog-list">
             <div class="category">01 All Arcticles</div>
             <div class="all-blogs">
                 <NuxtLink
+                    v-for="post in filteredPosts"
                     :to="post._path"
-                    class="blog"
-                    v-for="post in allPosts"
                     :key="post._id"
+                    class="blog"
                 >
                     <div class="blog-name">{{ post.title }}</div>
                     <div class="blog-date">{{ formatDate(post.date) }}</div>
@@ -64,7 +103,7 @@ h1 {
             color: grey;
         }
 
-        div:first-child {
+        .active {
             color: $black;
         }
     }

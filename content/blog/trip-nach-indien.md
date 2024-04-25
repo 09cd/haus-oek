@@ -1,6 +1,7 @@
 ---
 title: Trip nach Indien
 date: 2022-01-02 23:40:05
+category: "Personal Development"
 ---
 
 # Trip nach Indien

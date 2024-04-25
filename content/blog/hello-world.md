@@ -1,6 +1,7 @@
 ---
 title: Hello World
 date: 2024-12-04 11:45:01
+category: Web Design
 ---
 
 ![hello](/img/hello.jpg)
@@ -13,7 +14,7 @@ You are currently on the 'Hello World' Route.
 
 I like Cheese.
 
-[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida, turpis eget dictum porttitor, tortor odio sagittis ex, nec efficitur nisl ligula ut nunc. Duis in ex ut risus posuere dapibus ut eget nisl. Suspendisse potenti. Nam vitae odio et justo bibendum egestas. Donec ultricies justo et arcu volutpat, ut tristique mi faucibus. In non orci mollis, lobortis augue et, dignissim arcu. In sit amet odio posuere, dictum ligula vel, varius arcu. Etiam ornare arcu augue, ut iaculis est porta a. Phasellus vehicula velit sed augue luctus venenatis.]{class="intro"}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida, turpis eget dictum porttitor, tortor odio sagittis ex, nec efficitur nisl ligula ut nunc. Duis in ex ut risus posuere dapibus ut eget nisl. Suspendisse potenti. Nam vitae odio et justo bibendum egestas. Donec ultricies justo et arcu volutpat, ut tristique mi faucibus. In non orci mollis, lobortis augue et, dignissim arcu. In sit amet odio posuere, dictum ligula vel, varius arcu. Etiam ornare arcu augue, ut iaculis est porta a. Phasellus vehicula velit sed augue luctus venenatis.
 
 ## Introduction
 
