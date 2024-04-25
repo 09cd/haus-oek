@@ -13,11 +13,17 @@ const { data } = await useAsyncData(`content-${route.path}`, () =>
 const allHeadings = ref([]);
 
 onMounted(() => {
+    document.querySelectorAll("h2").forEach((heading) => {
+        allHeadings.value.push(heading.textContent);
+    });
+
     document.querySelectorAll(".blog-part").forEach((part) => {
         gsap.to(part, {
             scrollTrigger: {
                 trigger: part,
-                start: "top+=4rem top",
+                start: "top 45%",
+                end: "bottom 45%",
+                // markers: true,
 
                 // Refactor this
 
@@ -25,7 +31,7 @@ onMounted(() => {
                     let href = part.querySelector("h2 a").getAttribute("href");
                     document.querySelectorAll("main nav a").forEach((link) => {
                         let navHref = link.getAttribute("href");
-                        if (navHref === `/blog/hello-world${href}`) {
+                        if (navHref === `/blog/${route.params.slug}${href}`) {
                             link.classList.add("active");
                         } else {
                             link.classList.remove("active");
@@ -36,7 +42,7 @@ onMounted(() => {
                     let href = part.querySelector("h2 a").getAttribute("href");
                     document.querySelectorAll("main nav a").forEach((link) => {
                         let navHref = link.getAttribute("href");
-                        if (navHref === `/blog/hello-world${href}`) {
+                        if (navHref === `/blog/${route.params.slug}${href}`) {
                             link.classList.add("active");
                         } else {
                             link.classList.remove("active");
@@ -47,33 +53,17 @@ onMounted(() => {
         });
     });
 
-    document.querySelectorAll("h2").forEach((heading) => {
-        allHeadings.value.push(heading.textContent);
+    onUnmounted(() => {
+        ScrollTrigger.getAll().forEach((trigger) => {
+            trigger.kill();
+        });
     });
-
-    for (let heading of allHeadings.value) {
-        console.log(heading);
-    }
 });
 </script>
 
 <template>
     <main>
         <nav>
-            <!-- <NuxtLink :to="{ path: route.path, hash: '#introduction' }"
-                >01 Introduction</NuxtLink
-            >
-            <NuxtLink
-                :to="{ path: route.path, hash: '#the-independent-spirit' }"
-                >02 The Independent Spirit</NuxtLink
-            >
-            <NuxtLink :to="{ path: route.path, hash: '#curious-explorer' }"
-                >03 Curious Explorer</NuxtLink
-            >
-            <NuxtLink :to="{ path: route.path, hash: '#purrfect-nap' }"
-                >04 Purrfect Nap</NuxtLink
-            > -->
-
             <NuxtLink
                 v-for="(heading, index) in allHeadings"
                 :key="heading"
