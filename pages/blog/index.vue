@@ -101,6 +101,10 @@ h1 {
 
         div {
             color: grey;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
 
         .active {
