@@ -18,12 +18,37 @@ const formatDate = (dateString) => {
     const date = new Date(dateString);
     return date.toLocaleDateString("en-US", options);
 };
+
+const time = ref("");
+
+const updateTime = () => {
+    const now = new Date();
+    const options = {
+        timeZone: "CET",
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: true,
+    };
+    time.value = now.toLocaleTimeString("en-US", options) + " CET";
+    console.log(time.value);
+};
+
+let timer;
+
+onMounted(() => {
+    updateTime();
+    timer = setInterval(updateTime, 1000);
+});
+
+onUnmounted(() => {
+    clearInterval(timer);
+});
 </script>
 
 <template>
     <div class="home-container">
         <div class="general-info">
-            <div class="time">10:56 AM CET</div>
+            <div class="time">{{ time }}</div>
             <div class="location">51.2230° N, 6.7825° E</div>
         </div>
         <h1>
