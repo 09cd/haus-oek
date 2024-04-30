@@ -26,7 +26,7 @@
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .container {
     padding: 4rem 2rem 0rem;
     padding-left: $pad-left;
