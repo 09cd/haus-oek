@@ -116,7 +116,8 @@ h1 {
         padding-right: 2rem;
 
         .all-blogs {
-            padding-top: 2rem;
+            // padding-top: 2rem;
+            padding: 2rem 0 8rem;
 
             a {
                 color: $black;

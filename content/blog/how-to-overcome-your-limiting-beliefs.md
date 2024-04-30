@@ -1,12 +1,12 @@
 ---
-title: How To Overcome Your Limiting Beliefs, and Achieve Much More Than You Think
+title: How To Overcome Your Limiting Beliefs, and Achieve
 date: 2021-02-03 11:53:04
 category: Health
 ---
 
 ::paragraph{content="blog-part"}
 
-# How To Overcome Your Limiting Beliefs, and Achieve Much More Than You Think
+# How To Overcome Your Limiting Beliefs, and Achieve
 
 You are currently on the 'Heute und Morgen' Route.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida, turpis eget dictum porttitor, tortor odio sagittis ex, nec efficitur nisl ligula ut nunc. Duis in ex ut risus posuere dapibus ut eget nisl.

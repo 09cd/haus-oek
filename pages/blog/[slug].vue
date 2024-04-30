@@ -101,20 +101,20 @@ main {
     }
 
     :deep(p) {
-        /* font-size: 1.125rem; */
-        font-size: 24px;
+        font-size: 1.125rem;
+        // font-size: 24px;
         padding-bottom: 1rem;
         text-align: justify;
     }
 
     :deep(h1) {
-        /* font-size: 2rem; */
-        font-size: 48px;
+        font-size: 2rem;
+        // font-size: 48px;
     }
 
     :deep(h2) {
-        /* font-size: 1.25rem; */
-        font-size: 24px;
+        font-size: 1.25rem;
+        // font-size: 24px;
         padding: 4rem 0 1.5rem;
     }
 
