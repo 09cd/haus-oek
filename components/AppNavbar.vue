@@ -42,8 +42,12 @@
 
     .navbar-logo {
         position: absolute;
-        left: $pad-left;
+        left: $pad-left-lg;
         top: 1rem;
+
+        @media (min-width: $bp-xl) {
+            left: $pad-left-xl;
+        }
     }
 
     .nav-link {

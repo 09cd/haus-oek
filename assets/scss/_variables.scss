@@ -10,9 +10,15 @@ $white: #111314;
 
 // BREAKPOINTS
 
-// ...
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
 
 // PADDING
 
-$pad-base: 36%;
-$pad-left: calc(2rem + $pad-base);
+$pad-base-xl: 36%;
+$pad-left-xl: calc(2rem + $pad-base-xl);
+
+$pad-base-lg: 32%;
+$pad-left-lg: calc(2rem + $pad-base-lg);

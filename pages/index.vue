@@ -79,7 +79,11 @@ onUnmounted(() => {
     flex-direction: column;
     gap: 2rem;
     padding: 4rem 2rem 2rem;
-    padding-left: $pad-left;
+    padding-left: $pad-left-lg;
+
+    @media (min-width: $bp-xl) {
+        padding-left: $pad-left-xl;
+    }
 }
 
 .latest-articles {

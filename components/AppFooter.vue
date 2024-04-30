@@ -19,7 +19,11 @@
 
     .copyright {
         position: absolute;
-        left: $pad-left;
+        left: $pad-left-lg;
+
+        @media (min-width: $bp-xl) {
+            left: $pad-left-xl;
+        }
     }
 }
 </style>

@@ -81,8 +81,12 @@ onMounted(() => {
 
 <style lang="scss" scoped>
 main {
-    padding: 4rem 2rem 6rem;
-    padding-left: $pad-left;
+    padding: 4rem 2rem 8rem;
+    padding-left: $pad-left-lg;
+
+    @media (min-width: $bp-xl) {
+        padding-left: $pad-left-xl;
+    }
 
     display: flex;
 

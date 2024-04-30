@@ -85,13 +85,21 @@ const filterPosts = (category) => {
 <style lang="scss" scoped>
 h1 {
     padding: 4rem 2rem 2rem;
-    padding-left: $pad-left;
+    padding-left: $pad-left-lg;
+
+    @media (min-width: $bp-xl) {
+        padding-left: $pad-left-xl;
+    }
 }
 
 .blog-container {
     display: grid;
-    grid-template-columns: $pad-base 1fr;
+    grid-template-columns: $pad-base-lg 1fr;
     gap: 2rem;
+
+    @media (min-width: $bp-xl) {
+        grid-template-columns: $pad-base-xl 1fr;
+    }
 
     .categories {
         display: flex;
@@ -129,7 +137,7 @@ h1 {
                 justify-content: space-between;
                 border-bottom: 0.1rem solid $black;
                 padding: 0.4rem 0;
-                gap: 4rem;
+                gap: 2rem;
 
                 .blog-date {
                     text-align: right;
