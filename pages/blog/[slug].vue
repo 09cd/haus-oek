@@ -82,7 +82,7 @@ onMounted(() => {
 <style lang="scss" scoped>
 main {
     padding: 4rem 2rem 6rem;
-    padding-left: calc(2rem + 40%);
+    padding-left: $pad-left;
 
     display: flex;
 

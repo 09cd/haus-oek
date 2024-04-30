@@ -42,7 +42,7 @@
 
     .navbar-logo {
         position: absolute;
-        left: calc(2rem + 40%);
+        left: $pad-left;
         top: 1rem;
     }
 

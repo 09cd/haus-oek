@@ -29,7 +29,7 @@
 <style scoped>
 .container {
     padding: 4rem 2rem 0rem;
-    padding-left: calc(2rem + 40%);
+    padding-left: $pad-left;
 
     .about-me {
         text-align: justify;

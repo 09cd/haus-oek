@@ -8,7 +8,7 @@
     <!-- <AppFooter /> -->
 </template>
 
-<style>
+<style lang="scss" scoped>
 .footer {
     display: flex;
     padding: 0 2rem 2rem;
@@ -19,7 +19,7 @@
 
     .copyright {
         position: absolute;
-        left: calc(2rem + 40%);
+        left: $pad-left;
     }
 }
 </style>
