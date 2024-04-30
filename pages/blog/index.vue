@@ -85,7 +85,10 @@ const filterPosts = (category) => {
 <style lang="scss" scoped>
 h1 {
     padding: 4rem 2rem 2rem;
-    padding-left: $pad-left-lg;
+
+    @media (min-width: $bp-lg) {
+        padding-left: $pad-left-lg;
+    }
 
     @media (min-width: $bp-xl) {
         padding-left: $pad-left-xl;
@@ -93,9 +96,16 @@ h1 {
 }
 
 .blog-container {
-    display: grid;
-    grid-template-columns: $pad-base-lg 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
+    padding: 0 2rem;
+
+    @media (min-width: $bp-lg) {
+        display: grid;
+        grid-template-columns: $pad-base-lg 1fr;
+        gap: 2rem;
+    }
 
     @media (min-width: $bp-xl) {
         grid-template-columns: $pad-base-xl 1fr;
@@ -105,7 +115,10 @@ h1 {
         display: flex;
         flex-direction: column;
         gap: 0.75rem;
-        padding-left: 2rem;
+
+        @media (min-width: $bp-lg) {
+            padding-left: 2rem;
+        }
 
         div {
             color: grey;
@@ -121,7 +134,9 @@ h1 {
     }
 
     .blog-list {
-        padding-right: 2rem;
+        @media (min-width: $bp-lg) {
+            padding-right: 2rem;
+        }
 
         .all-blogs {
             // padding-top: 2rem;

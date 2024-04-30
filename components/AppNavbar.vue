@@ -33,17 +33,22 @@
     border-bottom: 1px solid $black;
 
     .navbar-container {
-        display: flex;
-        justify-content: space-between;
-        gap: 2rem;
+        display: none;
+        @media (min-width: $bp-lg) {
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
 
-        list-style: none;
+            list-style: none;
+        }
     }
 
     .navbar-logo {
-        position: absolute;
-        left: $pad-left-lg;
-        top: 1rem;
+        @media (min-width: $bp-lg) {
+            position: absolute;
+            left: $pad-left-lg;
+            top: 1rem;
+        }
 
         @media (min-width: $bp-xl) {
             left: $pad-left-xl;

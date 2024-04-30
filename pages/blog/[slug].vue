@@ -82,7 +82,14 @@ onMounted(() => {
 <style lang="scss" scoped>
 main {
     padding: 4rem 2rem 8rem;
-    padding-left: $pad-left-lg;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    @media (min-width: $bp-lg) {
+        display: block;
+        padding-left: $pad-left-lg;
+    }
 
     @media (min-width: $bp-xl) {
         padding-left: $pad-left-xl;
@@ -91,11 +98,15 @@ main {
     display: flex;
 
     nav {
-        position: fixed;
-        left: 2rem;
-        display: flex;
-        flex-direction: column;
-        gap: 0.75rem;
+        // display: flex;
+        // flex-direction: column;
+        // gap: 0.75rem;
+        display: none;
+
+        @media (min-width: $bp-lg) {
+            position: fixed;
+            left: 2rem;
+        }
 
         a {
             // color: $black;

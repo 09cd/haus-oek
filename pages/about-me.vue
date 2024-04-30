@@ -29,7 +29,10 @@
 <style lang="scss" scoped>
 .container {
     padding: 4rem 2rem 0rem;
-    padding-left: $pad-left-lg;
+
+    @media (min-width: $bp-lg) {
+        padding-left: $pad-left-lg;
+    }
 
     @media (min-width: $bp-xl) {
         padding-left: $pad-left-xl;
