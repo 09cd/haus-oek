@@ -98,7 +98,7 @@ h1 {
 .blog-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
     padding: 0 2rem;
 
     @media (min-width: $bp-lg) {
