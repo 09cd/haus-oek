@@ -3,7 +3,6 @@ import { gsap } from "gsap";
 
 const menuButton = ref(null);
 const closeButton = ref(null);
-const isOpen = ref(false);
 
 const timeline = gsap.timeline({ paused: true });
 
@@ -14,9 +13,9 @@ onMounted(() => {
     closeButton.value = document.querySelector(".close-button");
 
     timeline.to(".overlay", {
-        duration: 1,
+        duration: 1.25,
         clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-        ease: "power1.in",
+        ease: "power4.in",
     });
 
     timeline.from(
@@ -25,7 +24,7 @@ onMounted(() => {
             duration: 0.7,
             width: "0%",
             ease: "power2.in",
-            stagger: 0.15,
+            stagger: 0.1,
         },
         "<0.5"
     );
@@ -35,29 +34,18 @@ onMounted(() => {
         {
             duration: 0.7, //o.75
             y: 0,
-            stagger: 0.15,
+            stagger: 0.1,
             ease: "power2.in",
         },
         "<"
     );
 
-    // menuButton.value.addEventListener("click", function () {
-    //     if (isOpen.value) {
-    //         timeline.reverse();
-    //     } else {
-    //         timeline.play();
-    //     }
-    //     isOpen.value = !isOpen.value;
-    // });
-
     menuButton.value.addEventListener("click", function () {
         timeline.play();
-        isOpen.value = !isOpen.value;
     });
 
     closeButton.value.addEventListener("click", function () {
         timeline.reverse();
-        isOpen.value = !isOpen.value;
     });
 });
 </script>
@@ -85,23 +73,35 @@ onMounted(() => {
         <div class="overlay-menu">
             <div class="divider"></div>
             <div class="menu-item">
-                <p><a href="#">About Me</a></p>
+                <p>
+                    <NuxtLink to="/about-me" @click="timeline.reverse()"
+                        >About Me</NuxtLink
+                    >
+                </p>
             </div>
             <div class="divider"></div>
             <div class="menu-item">
-                <p><a href="#">Contact</a></p>
+                <p>
+                    <NuxtLink to="/contact" @click="timeline.reverse()"
+                        >Contact</NuxtLink
+                    >
+                </p>
             </div>
             <div class="divider"></div>
             <div class="menu-item">
-                <p><a href="#">Blog</a></p>
+                <p>
+                    <NuxtLink to="/blog" @click="timeline.reverse()"
+                        >Blog</NuxtLink
+                    >
+                </p>
             </div>
             <div class="divider"></div>
             <div class="menu-item">
-                <p><a href="#">Dark Mode</a></p>
+                <p><a href="#" @click="timeline.reverse()">Dark Mode</a></p>
             </div>
             <div class="divider"></div>
             <div class="menu-item">
-                <p><a href="#">Deutsch</a></p>
+                <p><a href="#" @click="timeline.reverse()">Deutsch</a></p>
             </div>
         </div>
     </div>
@@ -147,6 +147,10 @@ onMounted(() => {
         color: $black;
         text-decoration: none;
     }
+
+    .navbar-menu {
+        cursor: pointer;
+    }
 }
 
 .overlay {
@@ -155,7 +159,7 @@ onMounted(() => {
         top: 1rem;
         right: 2rem;
         cursor: pointer;
-        color: $white;
+        color: #fffefe; // $white
     }
 
     position: fixed;
@@ -163,7 +167,7 @@ onMounted(() => {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: $black;
+    background: #111314; // $black
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /* full width, 0 height */
     will-change: transform;
     z-index: 3;
@@ -180,7 +184,7 @@ onMounted(() => {
         .divider {
             width: 100%;
             height: 1px;
-            background: $white;
+            background: #fffefe; // $white
             margin: 5.5rem 0 2rem;
         }
 
@@ -190,9 +194,12 @@ onMounted(() => {
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 
             a {
-                color: $white;
+                padding-left: 2rem;
+                color: #fffefe; // $white
                 text-decoration: none;
-                padding-left: 8rem;
+                @media (min-width: $bp-sm) {
+                    padding-left: 8rem;
+                }
             }
         }
     }
