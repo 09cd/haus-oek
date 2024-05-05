@@ -107,11 +107,26 @@ onUnmounted(() => {
 
     .header {
         font-style: italic;
+
+        div:last-child {
+            display: none;
+            @media (min-width: $bp-md) {
+                display: block;
+            }
+        }
     }
 
     a {
         color: $black;
         text-decoration: none;
+
+        div:last-child {
+            display: none;
+
+            @media (min-width: $bp-md) {
+                display: block;
+            }
+        }
     }
 }
 </style>

@@ -105,6 +105,7 @@ h1 {
         display: grid;
         grid-template-columns: $pad-base-lg 1fr;
         gap: 2rem;
+        padding: 0;
     }
 
     @media (min-width: $bp-xl) {
@@ -156,6 +157,11 @@ h1 {
 
                 .blog-date {
                     text-align: right;
+                    display: none;
+
+                    @media (min-width: $bp-md) {
+                        display: block;
+                    }
                 }
             }
         }

@@ -21,10 +21,5 @@
     @media (min-width: $bp-xl) {
         padding-left: $pad-left-xl;
     }
-
-    .contact,
-    .message {
-        text-align: justify;
-    }
 }
 </style>

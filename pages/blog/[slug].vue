@@ -98,12 +98,12 @@ main {
     display: flex;
 
     nav {
-        // display: flex;
-        // flex-direction: column;
-        // gap: 0.75rem;
         display: none;
 
         @media (min-width: $bp-lg) {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
             position: fixed;
             left: 2rem;
         }
@@ -119,7 +119,11 @@ main {
         font-size: 1.125rem;
         // font-size: 24px;
         padding-bottom: 1rem;
-        text-align: justify;
+        text-align: left;
+
+        @media (min-width: $bp-sm) {
+            text-align: justify;
+        }
     }
 
     :deep(h1) {
