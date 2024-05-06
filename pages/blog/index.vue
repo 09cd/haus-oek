@@ -14,13 +14,13 @@ const formatDate = (dateString) => {
     const date = new Date(dateString);
     return date.toLocaleDateString("en-US", options);
 };
-const activeCategory = ref("all");
+const activeCategory = ref("All Articles");
 const filteredPosts = ref([...allPosts.value]);
 
 const filterPosts = (category) => {
     activeCategory.value = category;
     console.log(activeCategory.value);
-    if (category === "all") {
+    if (category === "All Articles") {
         filteredPosts.value = allPosts.value;
     } else {
         filteredPosts.value = allPosts.value.filter(
@@ -37,10 +37,12 @@ const filterPosts = (category) => {
             <div class="blog-container">
                 <div class="categories">
                     <div
-                        :class="{ active: activeCategory === 'all' }"
-                        @click="filterPosts('all')"
+                        :class="{
+                            active: activeCategory === 'All Articles',
+                        }"
+                        @click="filterPosts('All Articles')"
                     >
-                        01 All Arcticles
+                        01 All Articles
                     </div>
                     <div
                         :class="{ active: activeCategory === 'Programming' }"
@@ -70,7 +72,7 @@ const filterPosts = (category) => {
                     </div>
                 </div>
                 <div class="blog-list">
-                    <div class="category">01 All Arcticles</div>
+                    <div class="category">{{ activeCategory }}</div>
                     <div class="all-blogs">
                         <NuxtLink
                             v-for="post in filteredPosts"
