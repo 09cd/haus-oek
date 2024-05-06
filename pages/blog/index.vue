@@ -31,136 +31,153 @@ const filterPosts = (category) => {
 </script>
 
 <template>
-    <h1>Blogs</h1>
-    <div class="blog-container">
-        <div class="categories">
-            <div
-                :class="{ active: activeCategory === 'all' }"
-                @click="filterPosts('all')"
-            >
-                01 All Arcticles
-            </div>
-            <div
-                :class="{ active: activeCategory === 'Programming' }"
-                @click="filterPosts('Programming')"
-            >
-                02 Programming
-            </div>
-            <div
-                :class="{ active: activeCategory === 'Web Design' }"
-                @click="filterPosts('Web Design')"
-            >
-                03 Web Design
-            </div>
-            <div
-                :class="{ active: activeCategory === 'Personal Development' }"
-                @click="filterPosts('Personal Development')"
-            >
-                04 Personal Development
-            </div>
-            <div
-                :class="{ active: activeCategory === 'Health' }"
-                @click="filterPosts('Health')"
-            >
-                05 Health
+    <div class="blog-page">
+        <div>
+            <h1>Blogs</h1>
+            <div class="blog-container">
+                <div class="categories">
+                    <div
+                        :class="{ active: activeCategory === 'all' }"
+                        @click="filterPosts('all')"
+                    >
+                        01 All Arcticles
+                    </div>
+                    <div
+                        :class="{ active: activeCategory === 'Programming' }"
+                        @click="filterPosts('Programming')"
+                    >
+                        02 Programming
+                    </div>
+                    <div
+                        :class="{ active: activeCategory === 'Web Design' }"
+                        @click="filterPosts('Web Design')"
+                    >
+                        03 Web Design
+                    </div>
+                    <div
+                        :class="{
+                            active: activeCategory === 'Personal Development',
+                        }"
+                        @click="filterPosts('Personal Development')"
+                    >
+                        04 Personal Development
+                    </div>
+                    <div
+                        :class="{ active: activeCategory === 'Health' }"
+                        @click="filterPosts('Health')"
+                    >
+                        05 Health
+                    </div>
+                </div>
+                <div class="blog-list">
+                    <div class="category">01 All Arcticles</div>
+                    <div class="all-blogs">
+                        <NuxtLink
+                            v-for="post in filteredPosts"
+                            :to="post._path"
+                            :key="post._id"
+                            class="blog"
+                        >
+                            <div class="blog-name">{{ post.title }}</div>
+                            <div class="blog-date">
+                                {{ formatDate(post.date) }}
+                            </div>
+                        </NuxtLink>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="blog-list">
-            <div class="category">01 All Arcticles</div>
-            <div class="all-blogs">
-                <NuxtLink
-                    v-for="post in filteredPosts"
-                    :to="post._path"
-                    :key="post._id"
-                    class="blog"
-                >
-                    <div class="blog-name">{{ post.title }}</div>
-                    <div class="blog-date">{{ formatDate(post.date) }}</div>
-                </NuxtLink>
-            </div>
-        </div>
+
+        <AppFooter />
     </div>
 </template>
 
 <style lang="scss" scoped>
-h1 {
-    padding: 4rem 2rem 2rem;
-
-    @media (min-width: $bp-lg) {
-        padding-left: $pad-left-lg;
-    }
-
-    @media (min-width: $bp-xl) {
-        padding-left: $pad-left-xl;
-    }
-}
-
-.blog-container {
+.blog-page {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
-    padding: 0 2rem;
+    justify-content: space-between;
+    min-height: calc(100vh - 3.5rem);
 
-    @media (min-width: $bp-lg) {
-        display: grid;
-        grid-template-columns: $pad-base-lg 1fr;
-        gap: 2rem;
-        padding: 0;
+    h1 {
+        padding: 4rem 2rem 2rem;
+
+        @media (min-width: $bp-lg) {
+            padding-left: $pad-left-lg;
+        }
+
+        @media (min-width: $bp-xl) {
+            padding-left: $pad-left-xl;
+        }
     }
 
-    @media (min-width: $bp-xl) {
-        grid-template-columns: $pad-base-xl 1fr;
-    }
-
-    .categories {
+    .blog-container {
         display: flex;
         flex-direction: column;
-        gap: 0.75rem;
+        gap: 4rem;
+        padding: 0 2rem;
 
         @media (min-width: $bp-lg) {
-            padding-left: 2rem;
+            display: grid;
+            grid-template-columns: $pad-base-lg 1fr;
+            gap: 2rem;
+            padding: 0;
         }
 
-        div {
-            color: grey;
+        @media (min-width: $bp-xl) {
+            grid-template-columns: $pad-base-xl 1fr;
+        }
 
-            &:hover {
-                cursor: pointer;
+        .categories {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+
+            @media (min-width: $bp-lg) {
+                padding-left: 2rem;
             }
-        }
 
-        .active {
-            color: $black;
-        }
-    }
+            div {
+                color: grey;
 
-    .blog-list {
-        @media (min-width: $bp-lg) {
-            padding-right: 2rem;
-        }
+                &:hover {
+                    cursor: pointer;
+                }
+            }
 
-        .all-blogs {
-            // padding-top: 2rem;
-            padding: 2rem 0 8rem;
-
-            a {
+            .active {
                 color: $black;
-                text-decoration: none;
+            }
+        }
+
+        .blog-list {
+            @media (min-width: $bp-lg) {
+                padding-right: 2rem;
             }
 
-            .blog {
-                display: flex;
-                justify-content: space-between;
-                border-bottom: 0.1rem solid $black;
-                padding: 0.4rem 0;
-                gap: 2rem;
+            .all-blogs {
+                // padding-top: 2rem;
+                padding: 2rem 0 8rem;
 
-                .blog-date {
-                    text-align: right;
-                    display: none;
+                a {
+                    color: $black;
+                    text-decoration: none;
+                }
 
-                    @media (min-width: $bp-md) {
-                        display: block;
+                .blog {
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 0.1rem solid $black;
+                    padding: 0.4rem 0;
+                    gap: 2rem;
+
+                    .blog-date {
+                        text-align: right;
+                        display: none;
+
+                        @media (min-width: $bp-md) {
+                            display: block;
+                        }
                     }
                 }
             }

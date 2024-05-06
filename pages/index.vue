@@ -86,7 +86,7 @@ onUnmounted(() => {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr auto auto;
-    margin-bottom: 2rem;
+    // margin-bottom: 2rem;
 
     .home-container {
         display: flex;
@@ -149,10 +149,11 @@ onUnmounted(() => {
             }
         }
     }
-}
 
-.footer {
-    grid-row: 4;
-    margin-top: 2rem;
+    .footer {
+        grid-row: 4;
+        // margin-top: 2rem;
+        position: static;
+    }
 }
 </style>

@@ -62,26 +62,35 @@ onMounted(() => {
 </script>
 
 <template>
-    <main>
-        <nav>
-            <NuxtLink
-                v-for="(heading, index) in allHeadings"
-                :key="heading"
-                :to="{
-                    path: route.path,
-                    hash: '#' + heading.toLowerCase().replace(/\s+/g, '-'),
-                }"
-            >
-                {{ (index + 1).toString().padStart(2, "0") }} {{ heading }}
-            </NuxtLink>
-        </nav>
-        <ContentRenderer :value="data" />
-    </main>
+    <div class="blog-article">
+        <main>
+            <nav>
+                <NuxtLink
+                    v-for="(heading, index) in allHeadings"
+                    :key="heading"
+                    :to="{
+                        path: route.path,
+                        hash: '#' + heading.toLowerCase().replace(/\s+/g, '-'),
+                    }"
+                >
+                    {{ (index + 1).toString().padStart(2, "0") }} {{ heading }}
+                </NuxtLink>
+            </nav>
+            <ContentRenderer :value="data" />
+        </main>
+        <AppFooter />
+    </div>
 </template>
 
 <style lang="scss" scoped>
+.blog-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: calc(100vh - 3.5rem);
+}
 main {
-    padding: 4rem 2rem 8rem;
+    padding: 4rem 2rem 0rem;
     display: flex;
     flex-direction: column;
     gap: 4rem;

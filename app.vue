@@ -2,6 +2,6 @@
     <div>
         <AppNavbar />
         <NuxtPage />
-        <!-- <AppFooter /> -->
+        <!-- <AppFooter v-if="$route.path !== '/'" /> -->
     </div>
 </template>

@@ -13,7 +13,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 0 2rem 2rem;
+    // padding: 0 2rem 2rem;
+    padding: 2rem;
     // position: absolute;
     // bottom: 0;
     // left: 0;
