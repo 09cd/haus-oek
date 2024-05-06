@@ -14,9 +14,9 @@
     justify-content: space-between;
     flex-direction: column;
     padding: 0 2rem 2rem;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    // position: absolute;
+    // bottom: 0;
+    // left: 0;
     width: 100%;
 
     @media (min-width: $bp-sm) {

@@ -154,6 +154,17 @@ onMounted(() => {
 }
 
 .overlay {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111314; // $black
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /* full width, 0 height */
+    will-change: transform;
+    z-index: 3;
+    overflow: scroll;
+
     .close-button {
         position: absolute;
         top: 1rem;
@@ -162,30 +173,28 @@ onMounted(() => {
         color: #fffefe; // $white
     }
 
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: #111314; // $black
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /* full width, 0 height */
-    will-change: transform;
-    z-index: 3;
-
     .overlay-menu {
-        position: fixed;
-        bottom: 5.5rem;
-        left: 0;
+        // position: fixed;
+        // bottom: 5.5rem;
+        // left: 0;
+        height: 100vh;
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        // grid-template-rows: repeat(10, 1fr);
+        grid-template-rows: auto 1fr auto 1fr auto 1fr auto 1fr auto 1fr;
+        // flex-direction: column;
+        // justify-content: end;
+        // padding-bottom: 6rem;
+        padding: 12rem 0 2rem;
+        gap: 1rem;
 
         .divider {
             width: 100%;
             height: 1px;
             background: #fffefe; // $white
-            margin: 5.5rem 0 2rem;
+            // margin: 5.5rem 0 2rem;
+            // margin: 5% 0 2%;
         }
 
         .menu-item {
