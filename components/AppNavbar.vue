@@ -12,6 +12,8 @@ onMounted(() => {
     menuButton.value = document.querySelector(".navbar-menu");
     closeButton.value = document.querySelector(".close-button");
 
+    timeline.set(".overlay", { display: "block" });
+
     timeline.to(".overlay", {
         duration: 1.25,
         clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
@@ -154,6 +156,7 @@ onMounted(() => {
 }
 
 .overlay {
+    display: none;
     position: fixed;
     bottom: 0;
     left: 0;
