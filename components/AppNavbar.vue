@@ -1,10 +1,23 @@
 <script setup>
 import { gsap } from "gsap";
 
+const colorMode = useColorMode()
+
 const menuButton = ref(null);
 const closeButton = ref(null);
 
 const timeline = gsap.timeline({ paused: true });
+
+function changeColorMode() {
+    timeline.reverse();
+    let currentColorMode = colorMode.preference;
+
+    if (currentColorMode === "light-mode") {
+        colorMode.preference = "dark-mode";
+    } else {
+        colorMode.preference = "light-mode";
+    }
+}
 
 onMounted(() => {
     gsap.set(".menu-item p", { y: 20 });
@@ -99,7 +112,7 @@ onMounted(() => {
             </div>
             <div class="divider"></div>
             <div class="menu-item">
-                <p><a href="#" @click="timeline.reverse()">Dark Mode</a></p>
+                <p><a href="#" @click="changeColorMode()">Dark Mode</a></p>
             </div>
             <div class="divider"></div>
             <div class="menu-item">
@@ -118,7 +131,8 @@ onMounted(() => {
     position: sticky;
     top: 0;
     left: 0;
-    background-color: $white;
+    // background-color: $white;
+    background-color: var(--primary);
     border-bottom: 1px solid $black;
     // z-index: 2;
 
@@ -146,7 +160,8 @@ onMounted(() => {
     }
 
     .nav-link {
-        color: $black;
+        // color: $black;
+        color: var(--secondary);
         text-decoration: none;
     }
 

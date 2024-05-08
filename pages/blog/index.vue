@@ -148,7 +148,8 @@ const filterPosts = (category) => {
             }
 
             .active {
-                color: $black;
+                // color: $black;
+                color: var(--secondary);
             }
         }
 
@@ -162,14 +163,16 @@ const filterPosts = (category) => {
                 padding: 2rem 0 8rem;
 
                 a {
-                    color: $black;
+                    // color: $black;
+                    color: var(--secondary);
                     text-decoration: none;
                 }
 
                 .blog {
                     display: flex;
                     justify-content: space-between;
-                    border-bottom: 0.1rem solid $black;
+                    // border-bottom: 0.1rem solid $black;
+                    border-bottom: 0.1rem solid var(--secondary);
                     padding: 0.4rem 0;
                     gap: 2rem;
 

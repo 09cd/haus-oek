@@ -1,21 +1,32 @@
-// COLOURS
+/******************************
+* COLOURS (COLOR MODE)        *
+******************************/
 
 $black: #111314;
 $white: #fffefe;
 
-// (DARK MODE BECAUSE MY EYES HURT)
+:root {
+    --primary: #fffefe;
+    --secondary: #111314;
+}
 
-// $black: #fffefe;
-// $white: #111314;
+.dark-mode {
+    --primary: #111314;
+    --secondary: #fffefe;
+}
 
-// BREAKPOINTS
+/***********************
+* BREAKPOINTS          *
+***********************/
 
 $bp-sm: 576px;
 $bp-md: 768px;
 $bp-lg: 992px;
 $bp-xl: 1200px;
 
-// PADDING
+/***********************
+* PADDING              *
+***********************/
 
 $pad-base-xl: 36%;
 $pad-left-xl: calc(2rem + $pad-base-xl);
