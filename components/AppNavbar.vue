@@ -1,23 +1,28 @@
-<script setup>
+<script setup lang="ts">
 import { gsap } from "gsap";
 
-const colorMode = useColorMode()
+const colorMode = useColorMode();
+colorMode.preference = "light";
 
 const menuButton = ref(null);
 const closeButton = ref(null);
 
-const timeline = gsap.timeline({ paused: true });
+// FIX: When the user changes the  color mode of the device, isDarkMode is not updated
+const isDarkMode = ref(colorMode.preference === "dark");
 
 function changeColorMode() {
     timeline.reverse();
-    let currentColorMode = colorMode.preference;
 
-    if (currentColorMode === "light-mode") {
-        colorMode.preference = "dark-mode";
+    if (colorMode.preference === "light") {
+        colorMode.preference = "dark";
+        isDarkMode.value = true;
     } else {
-        colorMode.preference = "light-mode";
+        colorMode.preference = "light";
+        isDarkMode.value = false;
     }
 }
+
+const timeline = gsap.timeline({ paused: true });
 
 onMounted(() => {
     gsap.set(".menu-item p", { y: 20 });
@@ -112,7 +117,11 @@ onMounted(() => {
             </div>
             <div class="divider"></div>
             <div class="menu-item">
-                <p><a href="#" @click="changeColorMode()">Dark Mode</a></p>
+                <p>
+                    <a href="#" @click="changeColorMode()">{{
+                        isDarkMode ? "Light Mode" : "Dark Mode"
+                    }}</a>
+                </p>
             </div>
             <div class="divider"></div>
             <div class="menu-item">
@@ -133,7 +142,8 @@ onMounted(() => {
     left: 0;
     // background-color: $white;
     background-color: var(--primary);
-    border-bottom: 1px solid $black;
+    // border-bottom: 1px solid $black;
+    border-bottom: 1px solid var(--secondary);
     // z-index: 2;
 
     .navbar-container {

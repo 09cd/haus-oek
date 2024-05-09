@@ -25,13 +25,19 @@ export default defineNuxtConfig({
         },
     },
 
-    modules: ["@nuxt/content"],
+    modules: ["@nuxt/content", "@nuxtjs/color-mode"],
 
     // content: {
     //     markdown: {
     //         anchorLinks: false,
     //     },
     // },
+
+    colorMode: {
+        // preference: "system", // default value of $colorMode.preference
+        preference: "light",
+        fallback: "light", // fallback value if not system preference found
+    },
 
     router: {
         options: {
