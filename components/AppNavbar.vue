@@ -25,7 +25,7 @@ function changeColorMode() {
 const timeline = gsap.timeline({ paused: true });
 
 onMounted(() => {
-    gsap.set(".menu-item p", { y: 20 });
+    gsap.set(".menu-item p a", { y: 20 });
 
     menuButton.value = document.querySelector(".navbar-menu");
     closeButton.value = document.querySelector(".close-button");
@@ -50,9 +50,9 @@ onMounted(() => {
     );
 
     timeline.to(
-        ".menu-item p",
+        ".menu-item p a",
         {
-            duration: 0.7, //o.75
+            duration: 0.7,
             y: 0,
             stagger: 0.1,
             ease: "power2.in",
@@ -236,14 +236,20 @@ onMounted(() => {
         .menu-item {
             // padding: 2rem 0 5.5rem;
             cursor: pointer;
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 
-            a {
-                padding-left: 2rem;
-                color: #fffefe; // $white
-                text-decoration: none;
-                @media (min-width: $bp-sm) {
-                    padding-left: 8rem;
+            p {
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+                // clip-path: inset(0);
+                overflow: hidden;
+
+                a {
+                    padding-left: 2rem;
+                    color: #fffefe; // $white
+                    text-decoration: none;
+                    display: inline-block;
+                    @media (min-width: $bp-sm) {
+                        padding-left: 8rem;
+                    }
                 }
             }
         }
