@@ -175,6 +175,32 @@ const filterPosts = (category) => {
                     border-bottom: 0.1rem solid var(--secondary);
                     padding: 0.4rem 0;
                     gap: 2rem;
+                    position: relative;
+                    transition: 0.3s;
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 0;
+                        background: var(--secondary);
+                        transition: 0.3s;
+                        z-index: -1;
+                    }
+
+                    &:hover:before {
+                        height: 100%;
+                    }
+
+                    &:hover div {
+                        color: var(--primary);
+                    }
+
+                    &:hover {
+                        padding: 0.4rem 0.4rem;
+                    }
 
                     .blog-date {
                         text-align: right;
