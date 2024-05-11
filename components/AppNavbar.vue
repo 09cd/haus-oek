@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { gsap } from "gsap";
 
 const colorMode = useColorMode();
@@ -61,6 +61,9 @@ onMounted(() => {
     );
 
     menuButton.value.addEventListener("click", function () {
+        document.querySelector(".color-mode-btn").textContent = isDarkMode.value
+            ? "Light Mode"
+            : "Dark Mode";
         timeline.play();
     });
 
@@ -118,9 +121,12 @@ onMounted(() => {
             <div class="divider"></div>
             <div class="menu-item">
                 <p>
-                    <a href="#" @click="changeColorMode()">{{
-                        isDarkMode ? "Light Mode" : "Dark Mode"
-                    }}</a>
+                    <a
+                        class="color-mode-btn"
+                        href="#"
+                        @click="changeColorMode()"
+                        >Dark Mode</a
+                    >
                 </p>
             </div>
             <div class="divider"></div>
@@ -188,6 +194,8 @@ onMounted(() => {
     width: 100%;
     height: 100%;
     background: #111314; // $black
+    // background-color: rgb(4, 4, 34);
+    background-color: black;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /* full width, 0 height */
     will-change: transform;
     z-index: 3;
