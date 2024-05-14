@@ -196,7 +196,6 @@ main {
         }
 
         a {
-            // color: $black;
             color: grey;
             text-decoration: none;
         }
@@ -226,7 +225,6 @@ main {
 
     :deep(h2, h3, h4) {
         a {
-            // color: $black;
             color: var(--secondary);
             text-decoration: none;
         }
@@ -242,7 +240,6 @@ main {
 }
 
 .active {
-    // color: $black;
     color: var(--secondary);
 }
 </style>

@@ -1,8 +1,5 @@
-/******************************
-* COLOURS (COLOR MODE)        *
-******************************/
+// COLOURS (COLOR MODE)
 
-$black: #111314;
 $white: #fffefe;
 
 :root {
@@ -15,18 +12,14 @@ $white: #fffefe;
     --secondary: #fffefe;
 }
 
-/***********************
-* BREAKPOINTS          *
-***********************/
+// BREAKPOINTS
 
 $bp-sm: 576px;
 $bp-md: 768px;
 $bp-lg: 992px;
 $bp-xl: 1200px;
 
-/***********************
-* PADDING              *
-***********************/
+// PADDING
 
 $pad-base-xl: 36%;
 $pad-left-xl: calc(2rem + $pad-base-xl);
