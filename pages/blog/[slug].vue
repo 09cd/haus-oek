@@ -24,13 +24,16 @@ onMounted(() => {
                 start: "top 45%",
                 end: "bottom 45%",
 
-                // Refactor this
-
                 onEnter: () => {
-                    let href = part.querySelector("h2 a").getAttribute("href");
+                    let headingHref = part
+                        .querySelector("h2 a")
+                        .getAttribute("href");
                     document.querySelectorAll("main nav a").forEach((link) => {
                         let navHref = link.getAttribute("href");
-                        if (navHref === `/blog/${route.params.slug}${href}`) {
+                        if (
+                            navHref ===
+                            `/blog/${route.params.slug}${headingHref}`
+                        ) {
                             link.classList.add("active");
                         } else {
                             link.classList.remove("active");
@@ -38,10 +41,15 @@ onMounted(() => {
                     });
                 },
                 onEnterBack: () => {
-                    let href = part.querySelector("h2 a").getAttribute("href");
+                    let headingHref = part
+                        .querySelector("h2 a")
+                        .getAttribute("href");
                     document.querySelectorAll("main nav a").forEach((link) => {
                         let navHref = link.getAttribute("href");
-                        if (navHref === `/blog/${route.params.slug}${href}`) {
+                        if (
+                            navHref ===
+                            `/blog/${route.params.slug}${headingHref}`
+                        ) {
                             link.classList.add("active");
                         } else {
                             link.classList.remove("active");
@@ -80,7 +88,7 @@ onMounted(() => {
         </svg>
         <NuxtLink to="/blog" class="all-blogs-link">All Blogs</NuxtLink>
     </div>
-    <div class="blog-article">
+    <div class="blog-container">
         <main>
             <nav>
                 <NuxtLink
@@ -119,95 +127,59 @@ onMounted(() => {
     @media (min-width: $bp-xl) {
         padding-left: $pad-left-xl;
     }
+
+    a {
+        display: block;
+        position: relative;
+        color: grey;
+        text-decoration: none;
+        font-size: 0.8rem;
+        padding-left: 0.75rem;
+    }
 }
 
-.all-blogs-link {
-    // padding: 2rem 2rem 0;
-    // color: var(--secondary);
-    color: grey;
-    text-decoration: none;
-    font-size: 0.8rem;
-    overflow: hidden;
-
-    padding-left: 0.75rem;
-
-    display: block;
-    position: relative;
-
-    // transition: padding 0.3s;
-
-    // &:hover {
-    //     padding-left: 1.5rem;
-    // }
-
-    // @media (min-width: $bp-lg) {
-    //     padding-left: $pad-left-lg;
-    // }
-
-    // @media (min-width: $bp-xl) {
-    //     padding-left: $pad-left-xl;
-    // }
-
-    // &::before {
-    //     content: url("/assets/images/left-arrow.svg");
-    //     padding-right: 0.5rem;
-    //     // display: none;
-    //     position: relative;
-    //     // clip-path: polygon(100% 100%, 100% 100%, 100% 0, 100% 0);
-    //     transition: padding 0.3s;
-    //     fill: red;
-    // }
-
-    // &:hover::before {
-    //     padding-right: 1rem;
-    //     padding-left: 0.5rem;
-    //     // clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
-    //     // display: inline;
-    // }
-}
-.blog-article {
+.blog-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: calc(100vh - 6.5rem);
-}
-main {
-    padding: 2rem 2rem 0rem;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
 
-    @media (min-width: $bp-lg) {
-        display: block;
-        padding-left: $pad-left-lg;
-    }
-
-    @media (min-width: $bp-xl) {
-        padding-left: $pad-left-xl;
-    }
-
-    display: flex;
-
-    nav {
-        display: none;
-        max-width: 18rem;
+    main {
+        padding: 2rem 2rem 0rem;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
 
         @media (min-width: $bp-lg) {
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
-            position: fixed;
-            left: 2rem;
+            display: block;
+            padding-left: $pad-left-lg;
         }
 
-        a {
-            color: grey;
-            text-decoration: none;
+        @media (min-width: $bp-xl) {
+            padding-left: $pad-left-xl;
+        }
+
+        nav {
+            display: none;
+            max-width: 18rem;
+
+            @media (min-width: $bp-lg) {
+                display: flex;
+                flex-direction: column;
+                gap: 0.75rem;
+                position: fixed;
+                left: 2rem;
+            }
+
+            a {
+                color: grey;
+                text-decoration: none;
+            }
+
+            .active {
+                color: var(--secondary);
+            }
         }
     }
-}
-
-.active {
-    color: var(--secondary);
 }
 </style>
