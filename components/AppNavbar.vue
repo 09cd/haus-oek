@@ -124,10 +124,7 @@ onMounted(() => {
             <div class="divider"></div>
             <div class="menu-item">
                 <p>
-                    <a
-                        class="color-mode-btn"
-                        href="#"
-                        @click="changeColorMode()"
+                    <a class="color-mode-btn" @click="changeColorMode()"
                         >Dark Mode</a
                     >
                 </p>
