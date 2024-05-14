@@ -23,7 +23,6 @@ onMounted(() => {
                 trigger: part,
                 start: "top 45%",
                 end: "bottom 45%",
-                // markers: true,
 
                 // Refactor this
 
@@ -89,7 +88,12 @@ onMounted(() => {
                     :key="heading"
                     :to="{
                         path: route.path,
-                        hash: '#' + heading.toLowerCase().replace(/\s+/g, '-'),
+                        hash:
+                            '#' +
+                            heading
+                                .toLowerCase()
+                                .replace(/[\p{P}\p{S}]/gu, '')
+                                .replace(/\s+/g, '-'),
                     }"
                 >
                     {{ (index + 1).toString().padStart(2, "0") }} {{ heading }}
@@ -186,6 +190,7 @@ main {
 
     nav {
         display: none;
+        max-width: 18rem;
 
         @media (min-width: $bp-lg) {
             display: flex;
@@ -199,43 +204,6 @@ main {
             color: grey;
             text-decoration: none;
         }
-    }
-
-    :deep(p) {
-        font-size: 1.125rem;
-        // font-size: 24px;
-        padding-bottom: 1rem;
-        text-align: left;
-
-        @media (min-width: $bp-sm) {
-            text-align: justify;
-        }
-    }
-
-    :deep(h1) {
-        font-size: 2rem;
-        // font-size: 48px;
-    }
-
-    :deep(h2) {
-        font-size: 1.25rem;
-        // font-size: 24px;
-        padding: 4rem 0 1.5rem;
-    }
-
-    :deep(h2, h3, h4) {
-        a {
-            color: var(--secondary);
-            text-decoration: none;
-        }
-    }
-
-    :deep(img) {
-        height: 16rem;
-        width: 100%;
-        object-fit: cover;
-        border-radius: 1rem;
-        margin-bottom: 3rem;
     }
 }
 
