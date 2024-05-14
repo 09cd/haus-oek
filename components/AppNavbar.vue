@@ -97,6 +97,12 @@ onMounted(() => {
             <div class="divider"></div>
             <div class="menu-item">
                 <p>
+                    <NuxtLink to="/" @click="timeline.reverse()">Home</NuxtLink>
+                </p>
+            </div>
+            <div class="divider"></div>
+            <div class="menu-item">
+                <p>
                     <NuxtLink to="/about-me" @click="timeline.reverse()"
                         >About Me</NuxtLink
                     >
@@ -129,10 +135,6 @@ onMounted(() => {
                     >
                 </p>
             </div>
-            <div class="divider"></div>
-            <div class="menu-item">
-                <p><a href="#" @click="timeline.reverse()">Deutsch</a></p>
-            </div>
         </div>
     </div>
 </template>
@@ -150,7 +152,7 @@ onMounted(() => {
     background-color: var(--primary);
     // border-bottom: 1px solid $black;
     border-bottom: 1px solid var(--secondary);
-    // z-index: 2;
+    z-index: 2;
 
     .navbar-container {
         display: none;
@@ -199,7 +201,7 @@ onMounted(() => {
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /* full width, 0 height */
     will-change: transform;
     z-index: 3;
-    overflow: scroll;
+    // overflow: scroll;
 
     .close-button {
         position: absolute;
@@ -213,12 +215,15 @@ onMounted(() => {
         // position: fixed;
         // bottom: 5.5rem;
         // left: 0;
-        height: 100vh;
+        height: 100%;
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
         // grid-template-rows: repeat(10, 1fr);
+        // grid-template-rows: auto 1fr auto 1fr auto 1fr auto 1fr auto 1fr;
         grid-template-rows: auto 1fr auto 1fr auto 1fr auto 1fr auto 1fr;
+        overflow: scroll;
+
         // flex-direction: column;
         // justify-content: end;
         // padding-bottom: 6rem;
