@@ -104,6 +104,7 @@ onMounted(() => {
     padding-left: 2rem;
     padding-top: 2rem;
     align-items: center;
+    font-weight: 400;
 
     @media (min-width: $bp-lg) {
         padding-left: $pad-left-lg;
