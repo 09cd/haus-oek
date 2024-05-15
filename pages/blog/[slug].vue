@@ -85,7 +85,7 @@ onMounted(() => {
                             '#' +
                             heading
                                 .toLowerCase()
-                                .replace(/[\p{P}\p{S}]/gu, '')
+                                .replace(/[^\w\s-]/g, '') // .replace(/[\p{P}\p{S}]&&[^-]/gu, '')
                                 .replace(/\s+/g, '-'),
                     }"
                 >

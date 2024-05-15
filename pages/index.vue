@@ -1,7 +1,5 @@
 <script setup>
-// TODO: refactor (same code as in blog index page)
-
-const route = useRoute();
+const time = ref("");
 
 const { data: posts } = await useAsyncData("blog", () =>
     queryContent("blog").find()
@@ -13,14 +11,6 @@ const allPosts = computed(() => {
         .slice(0, 5);
 });
 
-const formatDate = (dateString) => {
-    const options = { year: "numeric", month: "long", day: "numeric" };
-    const date = new Date(dateString);
-    return date.toLocaleDateString("en-US", options);
-};
-
-const time = ref("");
-
 const updateTime = () => {
     const now = new Date();
     const options = {
@@ -30,7 +20,12 @@ const updateTime = () => {
         hour12: true,
     };
     time.value = now.toLocaleTimeString("en-US", options) + " CET";
-    console.log(time.value);
+};
+
+const formatDate = (dateString) => {
+    const options = { year: "numeric", month: "long", day: "numeric" };
+    const date = new Date(dateString);
+    return date.toLocaleDateString("en-US", options);
 };
 
 let timer;
@@ -47,26 +42,26 @@ onUnmounted(() => {
 
 <template>
     <div class="home">
-        <div class="home-container">
-            <div class="general-info">
-                <div class="time">{{ time }}</div>
-                <div class="location">51.2230° N, 6.7825° E</div>
+        <main class="home__hero">
+            <div>
+                <div>{{ time }}</div>
+                <div>51.2230° N, 6.7825° E</div>
             </div>
             <h1>
                 Welcome to my Blog <br />
                 This is my repository of all knowledge I gain
             </h1>
-        </div>
-        <div class="latest-articles">
+        </main>
+        <div class="home__latest-blogs">
             <div class="header">
-                <div>(Latest Articles)</div>
+                <div>(Latest Blogs)</div>
                 <div>(Date)</div>
             </div>
             <NuxtLink
                 v-for="post in allPosts"
                 :to="post._path"
                 :key="post._id"
-                class="article"
+                class="blog"
             >
                 <div>{{ post.title }}</div>
                 <div>{{ formatDate(post.date) }}</div>
@@ -78,22 +73,16 @@ onUnmounted(() => {
 
 <style lang="scss" scoped>
 .home {
-    // min-height: 100vh;
-    // display: flex;
-    // flex-direction: column;
-    // gap: 12rem;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr auto auto;
-    // margin-bottom: 2rem;
 
-    .home-container {
+    &__hero {
         display: flex;
         flex-direction: column;
         gap: 2rem;
         padding: 4rem 2rem 2rem;
-        // padding: 4rem 2rem 75%;
 
         @media (min-width: $bp-lg) {
             padding-left: $pad-left-lg;
@@ -108,17 +97,15 @@ onUnmounted(() => {
         }
     }
 
-    .latest-articles {
+    &__latest-blogs {
         grid-row: 3;
         display: flex;
         flex-direction: column;
         padding: 0 2rem;
         width: 100%;
-        // position: absolute;
-        // bottom: 6rem;
 
         .header,
-        .article {
+        .blog {
             display: flex;
             justify-content: space-between;
             border-bottom: 0.1rem solid var(--secondary);
@@ -136,8 +123,8 @@ onUnmounted(() => {
             }
         }
 
-        .article {
-            position: relative; /* Add this line */
+        .blog {
+            position: relative;
             transition: 0.3s;
 
             &:before {
@@ -152,16 +139,16 @@ onUnmounted(() => {
                 z-index: -1;
             }
 
-            &:hover:before {
-                height: 100%;
-            }
-
-            &:hover div {
-                color: var(--primary);
-            }
-
             &:hover {
                 padding: 0.4rem 0.4rem;
+
+                &::before {
+                    height: 100%;
+                }
+
+                div {
+                    color: var(--primary);
+                }
             }
         }
 
@@ -181,8 +168,6 @@ onUnmounted(() => {
 
     .footer {
         grid-row: 4;
-        // margin-top: 2rem;
-        position: static;
     }
 }
 </style>
