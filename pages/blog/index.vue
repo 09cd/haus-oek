@@ -1,6 +1,4 @@
 <script setup>
-const route = useRoute();
-
 const { data: posts } = await useAsyncData("blog", () =>
     queryContent("blog").find()
 );
@@ -9,17 +7,11 @@ const allPosts = computed(() => {
     return [...posts.value].sort((a, b) => new Date(b.date) - new Date(a.date));
 });
 
-const formatDate = (dateString) => {
-    const options = { year: "numeric", month: "long", day: "numeric" };
-    const date = new Date(dateString);
-    return date.toLocaleDateString("en-US", options);
-};
 const activeCategory = ref("All Articles");
 const filteredPosts = ref([...allPosts.value]);
 
 const filterPosts = (category) => {
     activeCategory.value = category;
-    console.log(activeCategory.value);
     if (category === "All Articles") {
         filteredPosts.value = allPosts.value;
     } else {
@@ -28,14 +20,20 @@ const filterPosts = (category) => {
         );
     }
 };
+
+const formatDate = (dateString) => {
+    const options = { year: "numeric", month: "long", day: "numeric" };
+    const date = new Date(dateString);
+    return date.toLocaleDateString("en-US", options);
+};
 </script>
 
 <template>
     <div class="blog-page">
-        <div>
+        <main>
             <h1>Blogs</h1>
-            <div class="blog-container">
-                <div class="categories">
+            <div class="blogs">
+                <div class="blogs__categories">
                     <div
                         :class="{
                             active: activeCategory === 'All Articles',
@@ -71,25 +69,24 @@ const filterPosts = (category) => {
                         05 Health
                     </div>
                 </div>
-                <div class="blog-list">
-                    <div class="category">{{ activeCategory }}</div>
-                    <div class="all-blogs">
+                <div class="blogs__list">
+                    <div>{{ activeCategory }}</div>
+                    <div class="list">
                         <NuxtLink
                             v-for="post in filteredPosts"
                             :to="post._path"
                             :key="post._id"
                             class="blog"
                         >
-                            <div class="blog-name">{{ post.title }}</div>
-                            <div class="blog-date">
+                            <div>{{ post.title }}</div>
+                            <div class="blog__date">
                                 {{ formatDate(post.date) }}
                             </div>
                         </NuxtLink>
                     </div>
                 </div>
             </div>
-        </div>
-
+        </main>
         <AppFooter />
     </div>
 </template>
@@ -113,7 +110,7 @@ const filterPosts = (category) => {
         }
     }
 
-    .blog-container {
+    .blogs {
         display: flex;
         flex-direction: column;
         gap: 4rem;
@@ -130,7 +127,7 @@ const filterPosts = (category) => {
             grid-template-columns: $pad-base-xl 1fr;
         }
 
-        .categories {
+        &__categories {
             display: flex;
             flex-direction: column;
             gap: 0.75rem;
@@ -145,33 +142,29 @@ const filterPosts = (category) => {
                 &:hover {
                     cursor: pointer;
                 }
-            }
 
-            .active {
-                color: var(--secondary);
+                &.active {
+                    color: var(--secondary);
+                }
             }
         }
 
-        .blog-list {
+        &__list {
             @media (min-width: $bp-lg) {
                 padding-right: 2rem;
             }
 
-            .all-blogs {
-                // padding-top: 2rem;
+            .list {
                 padding: 2rem 0 8rem;
-
-                a {
-                    color: var(--secondary);
-                    text-decoration: none;
-                }
 
                 .blog {
                     display: flex;
                     justify-content: space-between;
-                    border-bottom: 0.1rem solid var(--secondary);
-                    padding: 0.4rem 0;
                     gap: 2rem;
+                    padding: 0.4rem 0;
+                    border-bottom: 0.1rem solid var(--secondary);
+                    color: var(--secondary);
+                    text-decoration: none;
                     position: relative;
                     transition: 0.3s;
 
@@ -187,19 +180,19 @@ const filterPosts = (category) => {
                         z-index: -1;
                     }
 
-                    &:hover:before {
-                        height: 100%;
-                    }
-
-                    &:hover div {
-                        color: var(--primary);
-                    }
-
                     &:hover {
                         padding: 0.4rem 0.4rem;
+
+                        &:before {
+                            height: 100%;
+                        }
+
+                        div {
+                            color: var(--primary);
+                        }
                     }
 
-                    .blog-date {
+                    &__date {
                         text-align: right;
                         display: none;
 
