@@ -2,7 +2,7 @@
 
 <template>
     <div class="about-page">
-        <div class="content">
+        <main>
             <h1>About Sway</h1>
             <div>
                 Fusce vel urna in metus faucibus maximus eget eget tortor. Proin
@@ -25,7 +25,7 @@
                 tortor. Proin scelerisque, justo et accumsan ultricies, justo
                 velit lobortis risus, sed vestibulum ligula eros sed ipsum.
             </div>
-        </div>
+        </main>
         <AppFooter />
     </div>
 </template>
@@ -37,7 +37,7 @@
     justify-content: space-between;
     min-height: calc(100vh - 3.5rem);
 
-    .content {
+    main {
         padding: 4rem 2rem 0rem;
         text-align: justify;
 

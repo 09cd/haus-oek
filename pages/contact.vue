@@ -1,26 +1,24 @@
 <script></script>
 
 <template>
-    <div class="contact">
-        <div class="container">
+    <div class="contact-page">
+        <main>
             <h1>Contact</h1>
-            <div class="contact-links">Email, LinkedIn, Instagram</div>
-            <div class="message">
-                Feel free to send me an Email or DM me on Instragram
-            </div>
-        </div>
+            <div>Email, YouTube, Instagram</div>
+            <div>Feel free to send me an Email or DM me on Instragram</div>
+        </main>
         <AppFooter />
     </div>
 </template>
 
 <style lang="scss" scoped>
-.contact {
+.contact-page {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: calc(100vh - 3.5rem);
 
-    .container {
+    main {
         padding: 4rem 2rem 0rem;
 
         @media (min-width: $bp-lg) {
