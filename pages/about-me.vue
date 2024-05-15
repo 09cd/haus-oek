@@ -1,10 +1,10 @@
 <script></script>
 
 <template>
-    <div class="about">
-        <div class="container">
+    <div class="about-page">
+        <div class="content">
             <h1>About Sway</h1>
-            <div class="about-me">
+            <div>
                 Fusce vel urna in metus faucibus maximus eget eget tortor. Proin
                 scelerisque, justo et accumsan ultricies, justo velit lobortis
                 risus, sed vestibulum ligula eros sed ipsum. Integer nec lacinia
@@ -31,14 +31,15 @@
 </template>
 
 <style lang="scss" scoped>
-.about {
+.about-page {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: calc(100vh - 3.5rem);
 
-    .container {
+    .content {
         padding: 4rem 2rem 0rem;
+        text-align: justify;
 
         @media (min-width: $bp-lg) {
             padding-left: $pad-left-lg;
@@ -46,10 +47,6 @@
 
         @media (min-width: $bp-xl) {
             padding-left: $pad-left-xl;
-        }
-
-        .about-me {
-            text-align: justify;
         }
     }
 }
