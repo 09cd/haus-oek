@@ -27,16 +27,10 @@ export default defineNuxtConfig({
 
     modules: ["@nuxt/content", "@nuxtjs/color-mode"],
 
-    // content: {
-    //     markdown: {
-    //         anchorLinks: false,
-    //     },
-    // },
-
     colorMode: {
-        // preference: "system", // default value of $colorMode.preference
+        // preference: "system",
         preference: "light",
-        fallback: "light", // fallback value if not system preference found
+        fallback: "light",
     },
 
     router: {
@@ -46,8 +40,8 @@ export default defineNuxtConfig({
     },
 
     // FOR MOBILE TESTING
-    devServer: {
-        port: 8000, // default: 3000
-        host: "0.0.0.0", // default: localhost
-    },
+    // devServer: {
+    //     port: 8000, // default: 3000
+    //     host: "0.0.0.0", // default: localhost
+    // },
 });
