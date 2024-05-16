@@ -8,146 +8,72 @@ category: Personal Development
 
 # Top 10 Bad Habits You Need To Stay Away From
 
-![hello](/images/2020/bad-habits.jpg)
+You are currently on the 'Hello World' Route. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida, turpis eget dictum porttitor, tortor odio sagittis ex, nec efficitur nisl ligula ut nunc. Duis in ex ut risus posuere dapibus ut eget nisl. Suspendisse potenti. Nam vitae odio et justo bibendum egestas. Donec ultricies justo et arcu volutpat, ut tristique mi faucibus. In non orci mollis, lobortis augue et, dignissim arcu. In sit amet odio posuere, dictum ligula vel, varius arcu. Etiam ornare arcu augue, ut iaculis est porta a. Phasellus vehicula velit sed augue luctus venenatis.
 
-Bad habits are like slow poisons killing you slowly and you don’t realize it until you hit the rock bottom. Bad habits are hard to break — if not impossible! The sooner you know and try to stay away from bad habits the better you can be at work, life and relationships.
+## Introduction
 
-Good habits are hard to develop but easy to live with; bad habits are easy to develop but hard to live with. The habits you have and the habits that have you will determine almost everything you achieve or fail to achieve. — Brian Tracy
+Maecenas at sagittis justo. Praesent tempor vel nibh a semper. Donec vitae turpis in magna ullamcorper pharetra. Aenean ultricies mi nisi, a interdum orci pretium feugiat. Phasellus at mi eu tellus suscipit convallis ut eget orci. Curabitur sodales non eros at imperdiet. Nullam mattis, purus vitae posuere porttitor, massa elit sagittis enim, vitae semper arcu augue quis elit. Maecenas non pharetra ante, quis fringilla magna. Pellentesque non facilisis lorem, sit amet faucibus nunc. Nulla et urna arcu. Vivamus efficitur commodo erat, quis tempus nisi ullamcorper et. Vestibulum non volutpat purus. Phasellus lacinia vestibulum cursus. Vivamus at augue rhoncus, eleifend ex ac, suscipit ipsum. Morbi vitae facilisis felis, in ullamcorper lorem. Nunc id tincidunt diam, quis dictum eros.
 
-If you want to become the person you always wanted to be, then here is a list of bad habits that you need to get rid of as soon as possible. If you don’t have any of these habits, then kudos to you! But, make sure you never develop them.
+Sed in diam ut neque consectetur tristique eu vitae elit. Aliquam ipsum urna, facilisis vel ex non, tempus semper felis. Mauris tempus convallis felis sed elementum. Maecenas vestibulum nisi pellentesque consequat pellentesque. Praesent non massa et velit accumsan porttitor sed a nisl. Etiam est nisi, porta non libero vel, convallis varius lectus. Sed vehicula tortor sit amet diam dictum faucibus. Nunc sed ante ut urna ultrices condimentum sit amet sit amet est. Sed iaculis augue leo, ut tempus nisl bibendum et. Nulla ultrices placerat vehicula. Vestibulum vel tincidunt velit, et facilisis erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed faucibus felis in maximus elementum. Fusce id felis nec felis congue sodales et blandit elit. Quisque et massa ac purus porta pulvinar in molestie metus.
 
-## Waiting for the right time
-
-Chuck it! There is nothing called the right time! If nothing seems right then make the time right!
-
-If you have decided to start blogging, then this very moment is the right time for you.
-
-What are you waiting for? Excuses? Resources? Hurdles?
-
-“Do not wait: the time will never be ‘just right’. Start where you stand, and work with whatever tools you may have at your command and better tools will be found as you go along.”― Napoleon Hill
-
-I think the above quote sums up everything.
-
-Get started now!
+Praesent id mauris blandit, aliquet dui nec, interdum sapien. Morbi tristique mi sit amet risus tempor, at blandit elit consectetur. Vestibulum efficitur fermentum interdum. Donec scelerisque nulla nibh, vel efficitur sapien luctus quis. Cras molestie, enim a tempor maximus, lectus erat blandit libero, condimentum congue enim libero sed ante. Sed ac faucibus purus. Sed et felis urna. Etiam iaculis facilisis neque, vestibulum aliquet turpis maximus nec. Aenean luctus nunc rhoncus risus eleifend, et vehicula urna bibendum. Fusce pharetra finibus egestas. Suspendisse dictum dui nunc, malesuada consectetur mauris placerat et. Duis mattis tortor vitae nunc fringilla, in consectetur arcu aliquam. Donec eu risus at lectus dictum interdum.
 
 ::
 
 ::paragraph
 
-## Using cellphones in bed
+## The Independent Spirit
 
-Using smartphones, laptops, tablets before bed can really mess up your sleep. The Short-wavelength blue light emitted from these devices can halt the production of melatonin — the sleep-inducing hormone. Hence, you remain alert till late night and that disturbs your circadian rhythm. Over time it may lead to insomnia. And morning sleepiness can screw your productivity.
+Integer rhoncus tincidunt erat, ac faucibus dui efficitur quis. Mauris massa libero, bibendum et lorem ac, suscipit tempus erat. Etiam ultricies nibh nec augue accumsan, nec sollicitudin odio pharetra. Sed eget sodales augue, at sodales ex. Ut a justo hendrerit, ornare tortor ac, pharetra ex. Phasellus vel pretium sapien, in ornare mauris. Donec ultricies efficitur congue. Nulla et eleifend augue, vitae elementum est. Sed ac suscipit odio, a faucibus diam.
 
-The simple solution is to wrap your work at least one hour before going to sleep and switch off your phone — so that multiple social media notifications don’t wake you up.
+Nulla vel cursus arcu. Aliquam eget tortor varius velit tristique aliquam a ut odio. Nam iaculis erat vitae vehicula pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean id nibh erat. Sed augue orci, dignissim at nisi vitae, sollicitudin pretium enim. In bibendum eros lacus, sed faucibus urna eleifend vitae. Nullam condimentum consectetur ligula, et rutrum nibh placerat in. Curabitur eu interdum urna. Phasellus consequat suscipit varius. Integer viverra maximus odio, sodales iaculis arcu aliquam nec. Curabitur enim tortor, luctus at felis quis, fringilla sodales tellus. Mauris scelerisque ipsum et libero pellentesque, vitae porta quam facilisis.
 
-::
+Ut tempus nibh sed urna aliquam pellentesque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas pellentesque libero eu arcu ultrices, ac tincidunt dolor commodo. Mauris bibendum pretium erat, et maximus libero interdum vitae. Phasellus in sollicitudin erat. Aliquam fermentum dolor et mauris mattis accumsan. Nullam pulvinar ipsum vitae nisi lobortis, posuere laoreet nisl maximus. Cras pharetra condimentum fringilla. Nullam dapibus scelerisque nibh vitae blandit. Proin luctus vel lectus sit amet euismod. Maecenas congue gravida eros, vel tincidunt sem tempor blandit.
 
-::paragraph
+Donec tincidunt justo in vestibulum aliquam. Nullam turpis velit, tincidunt vitae porta non, imperdiet non nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus nunc tellus, sit amet varius risus venenatis quis. Quisque ornare eleifend urna, vel dignissim ipsum. Pellentesque bibendum ante ut ipsum feugiat, et tempus eros venenatis. Donec sed faucibus erat. Cras vel nisi vel tortor egestas aliquam vel nec velit. Vestibulum porta nibh ut turpis pharetra, a molestie nisl porta. Aliquam sit amet purus lacus. Sed sit amet porta purus, sit amet rutrum leo. In iaculis ornare augue id mattis. Etiam dignissim, sapien ultrices maximus pharetra, sem augue sagittis leo, eu luctus lorem lacus eget felis. Donec ut lorem pulvinar mauris pretium blandit.
 
-## Saying YES
-
-“YES MAN” will end up with stress, guilt, and unhappiness! How can you say yes to everything? Is it possible for you to attend movies, parties, holiday trips all the time? What about your priorities? How long can you sit and enjoy with people you don’t like? Can you be happy doing an extra shift without pay? Start saying “NO” and be happy.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida, turpis eget dictum porttitor, tortor odio sagittis ex, nec efficitur nisl ligula ut nunc. Duis in ex ut risus posuere dapibus ut eget nisl. Suspendisse potenti. Nam vitae odio et justo bibendum egestas. Donec ultricies justo et arcu volutpat, ut tristique mi faucibus. In non orci mollis, lobortis augue et, dignissim arcu. In sit amet odio posuere, dictum ligula vel, varius arcu. Etiam ornare arcu augue, ut iaculis est porta a. Phasellus vehicula velit sed augue luctus venenatis.
 
 ::
 
 ::paragraph
 
-## Comparing yourself to others
+## Curious Explorer
 
-Did you ever get pleasure comparing your career, looks, spouse, salary, wealth to others? All you get is envy and frustration! No peace. Agree? Don’t seek validation! If you are getting pleasure and satisfaction from your work, then you are on the right path. If everyone has to become Einstein who will become an actor, doctor, comedian? Everyone has a unique story that is the source of their creativity, power and personality!
+Maecenas at sagittis justo. Praesent tempor vel nibh a semper. Donec vitae turpis in magna ullamcorper pharetra. Aenean ultricies mi nisi, a interdum orci pretium feugiat. Phasellus at mi eu tellus suscipit convallis ut eget orci. Curabitur sodales non eros at imperdiet. Nullam mattis, purus vitae posuere porttitor, massa elit sagittis enim, vitae semper arcu augue quis elit. Maecenas non pharetra ante, quis fringilla magna. Pellentesque non facilisis lorem, sit amet faucibus nunc. Nulla et urna arcu. Vivamus efficitur commodo erat, quis tempus nisi ullamcorper et. Vestibulum non volutpat purus. Phasellus lacinia vestibulum cursus. Vivamus at augue rhoncus, eleifend ex ac, suscipit ipsum. Morbi vitae facilisis felis, in ullamcorper lorem. Nunc id tincidunt diam, quis dictum eros.
 
-“Comparison is an act of violence against the self.” Iyanla Vanzant
+Sed in diam ut neque consectetur tristique eu vitae elit. Aliquam ipsum urna, facilisis vel ex non, tempus semper felis. Mauris tempus convallis felis sed elementum. Maecenas vestibulum nisi pellentesque consequat pellentesque. Praesent non massa et velit accumsan porttitor sed a nisl. Etiam est nisi, porta non libero vel, convallis varius lectus. Sed vehicula tortor sit amet diam dictum faucibus. Nunc sed ante ut urna ultrices condimentum sit amet sit amet est. Sed iaculis augue leo, ut tempus nisl bibendum et. Nulla ultrices placerat vehicula. Vestibulum vel tincidunt velit, et facilisis erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed faucibus felis in maximus elementum. Fusce id felis nec felis congue sodales et blandit elit. Quisque et massa ac purus porta pulvinar in molestie metus.
 
-::
+Praesent id mauris blandit, aliquet dui nec, interdum sapien. Morbi tristique mi sit amet risus tempor, at blandit elit consectetur. Vestibulum efficitur fermentum interdum. Donec scelerisque nulla nibh, vel efficitur sapien luctus quis. Cras molestie, enim a tempor maximus, lectus erat blandit libero, condimentum congue enim libero sed ante. Sed ac faucibus purus. Sed et felis urna. Etiam iaculis facilisis neque, vestibulum aliquet turpis maximus nec. Aenean luctus nunc rhoncus risus eleifend, et vehicula urna bibendum. Fusce pharetra finibus egestas. Suspendisse dictum dui nunc, malesuada consectetur mauris placerat et. Duis mattis tortor vitae nunc fringilla, in consectetur arcu aliquam. Donec eu risus at lectus dictum interdum.
 
-::paragraph
+Integer rhoncus tincidunt erat, ac faucibus dui efficitur quis. Mauris massa libero, bibendum et lorem ac, suscipit tempus erat. Etiam ultricies nibh nec augue accumsan, nec sollicitudin odio pharetra. Sed eget sodales augue, at sodales ex. Ut a justo hendrerit, ornare tortor ac, pharetra ex. Phasellus vel pretium sapien, in ornare mauris. Donec ultricies efficitur congue. Nulla et eleifend augue, vitae elementum est. Sed ac suscipit odio, a faucibus diam.
 
-## Being late
+Nulla vel cursus arcu. Aliquam eget tortor varius velit tristique aliquam a ut odio. Nam iaculis erat vitae vehicula pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean id nibh erat. Sed augue orci, dignissim at nisi vitae, sollicitudin pretium enim. In bibendum eros lacus, sed faucibus urna eleifend vitae. Nullam condimentum consectetur ligula, et rutrum nibh placerat in. Curabitur eu interdum urna. Phasellus consequat suscipit varius. Integer viverra maximus odio, sodales iaculis arcu aliquam nec. Curabitur enim tortor, luctus at felis quis, fringilla sodales tellus. Mauris scelerisque ipsum et libero pellentesque, vitae porta quam facilisis.
 
-Stop going to bed late and hitting that snooze button in the morning! It doesn’t provide you with a sound sleep. Right? You wake up late, skip breakfast, and get in the bad books of people at work or events. How many times will you say sorry? That’s the worst way to start your day because you are going to be unproductive and disorganised throughout the day. And, then sleep at night with “I am never good enough” thoughts.
+Ut tempus nibh sed urna aliquam pellentesque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas pellentesque libero eu arcu ultrices, ac tincidunt dolor commodo. Mauris bibendum pretium erat, et maximus libero interdum vitae. Phasellus in sollicitudin erat. Aliquam fermentum dolor et mauris mattis accumsan. Nullam pulvinar ipsum vitae nisi lobortis, posuere laoreet nisl maximus. Cras pharetra condimentum fringilla. Nullam dapibus scelerisque nibh vitae blandit. Proin luctus vel lectus sit amet euismod. Maecenas congue gravida eros, vel tincidunt sem tempor blandit.
 
-::
+Donec tincidunt justo in vestibulum aliquam. Nullam turpis velit, tincidunt vitae porta non, imperdiet non nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus nunc tellus, sit amet varius risus venenatis quis. Quisque ornare eleifend urna, vel dignissim ipsum. Pellentesque bibendum ante ut ipsum feugiat, et tempus eros venenatis. Donec sed faucibus erat. Cras vel nisi vel tortor egestas aliquam vel nec velit. Vestibulum porta nibh ut turpis pharetra, a molestie nisl porta. Aliquam sit amet purus lacus. Sed sit amet porta purus, sit amet rutrum leo. In iaculis ornare augue id mattis. Etiam dignissim, sapien ultrices maximus pharetra, sem augue sagittis leo, eu luctus lorem lacus eget felis. Donec ut lorem pulvinar mauris pretium blandit.
 
-::paragraph
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida, turpis eget dictum porttitor, tortor odio sagittis ex, nec efficitur nisl ligula ut nunc. Duis in ex ut risus posuere dapibus ut eget nisl. Suspendisse potenti. Nam vitae odio et justo bibendum egestas. Donec ultricies justo et arcu volutpat, ut tristique mi faucibus. In non orci mollis, lobortis augue et, dignissim arcu. In sit amet odio posuere, dictum ligula vel, varius arcu. Etiam ornare arcu augue, ut iaculis est porta a. Phasellus vehicula velit sed augue luctus venenatis.
 
-## Multi-tasking during meetings
+Maecenas at sagittis justo. Praesent tempor vel nibh a semper. Donec vitae turpis in magna ullamcorper pharetra. Aenean ultricies mi nisi, a interdum orci pretium feugiat. Phasellus at mi eu tellus suscipit convallis ut eget orci. Curabitur sodales non eros at imperdiet. Nullam mattis, purus vitae posuere porttitor, massa elit sagittis enim, vitae semper arcu augue quis elit. Maecenas non pharetra ante, quis fringilla magna. Pellentesque non facilisis lorem, sit amet faucibus nunc. Nulla et urna arcu. Vivamus efficitur commodo erat, quis tempus nisi ullamcorper et. Vestibulum non volutpat purus. Phasellus lacinia vestibulum cursus. Vivamus at augue rhoncus, eleifend ex ac, suscipit ipsum. Morbi vitae facilisis felis, in ullamcorper lorem. Nunc id tincidunt diam, quis dictum eros.
 
-Oh, it’s soooooo cool!!! Is that what you think?
-
-Isn’t it rude to talk over phone with your spouse while you are in the middle of a new business deal? Or checking a smartphone while you are on a date?
-
-Not only multitasking creates a bad impression, but signals you are more important to you than anything or anyone else. Also, more tasks mean more mistakes. Multitasking shrinks your brain and lowers your IQ and reduces productivity by 40%.
-
-Multitasking is one of the bad habits that if you quit will take your productivity and efficiency to the next level.
-
-Get More Done–One Thing at a Time.
+Sed in diam ut neque consectetur tristique eu vitae elit. Aliquam ipsum urna, facilisis vel ex non, tempus semper felis. Mauris tempus convallis felis sed elementum. Maecenas vestibulum nisi pellentesque consequat pellentesque. Praesent non massa et velit accumsan porttitor sed a nisl. Etiam est nisi, porta non libero vel, convallis varius lectus. Sed vehicula tortor sit amet diam dictum faucibus. Nunc sed ante ut urna ultrices condimentum sit amet sit amet est. Sed iaculis augue leo, ut tempus nisl bibendum et. Nulla ultrices placerat vehicula. Vestibulum vel tincidunt velit, et facilisis erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed faucibus felis in maximus elementum. Fusce id felis nec felis congue sodales et blandit elit. Quisque et massa ac purus porta pulvinar in molestie metus.
 
 ::
 
 ::paragraph
 
-## Poor money management
+## Purrfect Nap
 
-Do you know the unexpected effects of ignoring financial health? Lavish spending and too many loans increase debt, lower savings. And, creates financial stress that is equivalent to symptoms of PTSD according to the new payoff study.
+Praesent id mauris blandit, aliquet dui nec, interdum sapien. Morbi tristique mi sit amet risus tempor, at blandit elit consectetur. Vestibulum efficitur fermentum interdum. Donec scelerisque nulla nibh, vel efficitur sapien luctus quis. Cras molestie, enim a tempor maximus, lectus erat blandit libero, condimentum congue enim libero sed ante. Sed ac faucibus purus. Sed et felis urna. Etiam iaculis facilisis neque, vestibulum aliquet turpis maximus nec. Aenean luctus nunc rhoncus risus eleifend, et vehicula urna bibendum. Fusce pharetra finibus egestas. Suspendisse dictum dui nunc, malesuada consectetur mauris placerat et. Duis mattis tortor vitae nunc fringilla, in consectetur arcu aliquam. Donec eu risus at lectus dictum interdum.
 
-High-stress levels can increase the risk of heart attack by 25% besides influencing mood, appetite, job performance, relationships, and mental health. Seek financial advice! Live a better quality of life!
+Integer rhoncus tincidunt erat, ac faucibus dui efficitur quis. Mauris massa libero, bibendum et lorem ac, suscipit tempus erat. Etiam ultricies nibh nec augue accumsan, nec sollicitudin odio pharetra. Sed eget sodales augue, at sodales ex. Ut a justo hendrerit, ornare tortor ac, pharetra ex. Phasellus vel pretium sapien, in ornare mauris. Donec ultricies efficitur congue. Nulla et eleifend augue, vitae elementum est. Sed ac suscipit odio, a faucibus diam.
 
-::
+Nulla vel cursus arcu. Aliquam eget tortor varius velit tristique aliquam a ut odio. Nam iaculis erat vitae vehicula pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean id nibh erat. Sed augue orci, dignissim at nisi vitae, sollicitudin pretium enim. In bibendum eros lacus, sed faucibus urna eleifend vitae. Nullam condimentum consectetur ligula, et rutrum nibh placerat in. Curabitur eu interdum urna. Phasellus consequat suscipit varius. Integer viverra maximus odio, sodales iaculis arcu aliquam nec. Curabitur enim tortor, luctus at felis quis, fringilla sodales tellus. Mauris scelerisque ipsum et libero pellentesque, vitae porta quam facilisis.
 
-::paragraph
+Ut tempus nibh sed urna aliquam pellentesque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas pellentesque libero eu arcu ultrices, ac tincidunt dolor commodo. Mauris bibendum pretium erat, et maximus libero interdum vitae. Phasellus in sollicitudin erat. Aliquam fermentum dolor et mauris mattis accumsan. Nullam pulvinar ipsum vitae nisi lobortis, posuere laoreet nisl maximus. Cras pharetra condimentum fringilla. Nullam dapibus scelerisque nibh vitae blandit. Proin luctus vel lectus sit amet euismod. Maecenas congue gravida eros, vel tincidunt sem tempor blandit.
 
-## Being in toxic relationships
-
-Do you have nasty neighbour getting on your nerves? Or a jealous coworker messing with your important projects? a friend who never appreciate you? Are you in a loveless relationship?
-
-Well, toxic people are unavoidable! They are always there, everywhere!
-
-There are two choices: Either waste your energy thinking about them all the time or focus on positive people in your life.
-
-The good news is being with positive and grateful people have myriad benefits including –
-
-low stress, improved psychological and physical wellbeing, personal and professional growth, high confidence, and an increase in happiness.
+Donec tincidunt justo in vestibulum aliquam. Nullam turpis velit, tincidunt vitae porta non, imperdiet non nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus nunc tellus, sit amet varius risus venenatis quis. Quisque ornare eleifend urna, vel dignissim ipsum. Pellentesque bibendum ante ut ipsum feugiat, et tempus eros venenatis. Donec sed faucibus erat. Cras vel nisi vel tortor egestas aliquam vel nec velit. Vestibulum porta nibh ut turpis pharetra, a molestie nisl porta. Aliquam sit amet purus lacus. Sed sit amet porta purus, sit amet rutrum leo. In iaculis ornare augue id mattis. Etiam dignissim, sapien ultrices maximus pharetra, sem augue sagittis leo, eu luctus lorem lacus eget felis. Donec ut lorem pulvinar mauris pretium blandit.
 
 ::
-
-::paragraph
-
-## Poor stress management
-
-Most of us ignore stress until it starts interfering with our day-to-day activities. Some common symptoms are –
-
-Inability to concentrate
-Poor judgement
-Aches and pains
-Irritability/anger
-Nervous habits like nail biting
-Loss of sex drive
-If left unaddressed stress can cause serious health physical health problems (like heart diseases, stroke), mental health problems (such as depression, anxiety) and psychological problems.
-
-Find out what is stressful for you and work on it!
-
-Some daily rituals that most successful people in the world do on a daily basis to de-stress themselves are –
-
-Set up boundaries ,Engage in meditation, yoga, reflective journaling, relaxation exercises, reading books, Work according to their to-do list, Achieve set goals, Good sleep, Spend time with loved ones, Play sports or indulge in active hobbies like fishing
-
-::
-
-::paragraph
-
-## Sedentary behaviour
-
-Binge-watching Netflix, spending more than 8–10 hours sitting, playing video games, eating fast food, lying down on the bed to read or write are all examples of sedentary behaviour.
-
-Physical inactivity is a global public health problem and a leading cause of death according to the World Health Organization.
-
-Stop being a couch potato.
-
-How to fix a sedentary lifestyle?
-
-Prepare your own meals instead of buying fast food and add more fruits and vegetables to your diet
-
-Brisk walking — “Thirty minutes a day is where we see great health benefits,” says Rick Richey, a master instructor with the National Academy of Sports Medicine (NASM).
-
-You can also:
-
-Run 30 minutes daily, Use stairs more than the elevator, Take breaks between work, Stand more, Spend more time doing household chores, Walk while talking over the phone

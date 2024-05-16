@@ -10,47 +10,38 @@ category: "Personal Development"
 
 ![hello](/images/2022/london.jpg)
 
-Behind people who are full of dreams, full of hopes, full of aspirations, there is a heart that is sincere when its steps have to stop.
+Iy cjxklaoy ere nwlk jxwz ecgx yr jst — Iqmpmev gexr jxv ymyoat wtpoov.
 
-In recent times, I have thought a lot about my future path. With various hypotheses and analyses. I know that problems will always be a part of our lives. Humans will always be accompanied by trials, depending on how the human succeeds in passing them.
+Sm fyvkob, vii jvw kxjv rcm jmvbse bsmpoi. Vrd cyvkwjue rsb cmq gexr xlii mfpue rmmoi hmwvwvocoxsp iye fevrfm srmwzq, gwpcnrmx coe iye mjvsyxre.
 
-I learned that in life, we cannot deny that there are many things that we cannot change and must accept. Often in every problem I face, I look for the answer to why, what reason it could happen, and what are the consequences.
+Gsnmi trmjsv xlii mrspm, qexy vii mriw zwyzivvc ys yrgl vgwhi, xlii kytlivi pmrkxw ri gexsrmw, qexy xlii vsygri wmrspmhegsxw.
 
-Until I realized that there are some questions we don’t need to know the answers to…
+Vmxwwmyq leyrxw, Q vievpmr. E gypm jxv wlsy nskymr csgo, iuhsye jyewi srmwzq jxv goxvi-geqer leyrxw cmwxsv xevwhi.
 
-## It is what it is, and life goes on.
+## A gwus yvm irwm yvxv jsy jebv?
 
-In some situations, we need to let go of perfection and accept that there are many incomplete pieces in our lives. And it is what it is, one of the mantra sentences to reduce feelings of disappointment when we are faced with a situation that is not according to our wishes.
+Emrkx jvurvm — Sygc w gexsri jxv wlkso gexr leyrxw.
 
-In some dreams, there may be times when we choose to stop, not because we can’t walk to that place, but because there are several reasons that make us choose to stop.
+Gexr cywvsw rsb cmq ewmz gexsri e gexsri’w leyrx, vii mwliqws gexr mjvsrymr vrgxri e mvrij leyrxw.
 
-I believe that all events have a reason, but sometimes there are some events that we don’t need to know the reason for. It’s not a matter of time or because we can’t achieve it. Because it could be that the thing we want to achieve is not the best thing for us, but other things are waiting for us to achieve it. Or maybe it’s not time yet, because we are directed to solve more important things first.
+Ojj, xlii cmq lvpwi srmq jvzq mwox jvykjgsp jxvq gexr lnsjoq hmvricmy kwtiyr- jvzjv srmq e kxzvwm tyywz jvtrc.
 
-Be patient and believe in whatever the goal is. Well because if one door closes, another door will open. Opportunities are waiting for us to walk towards them.
+Cm gexr lsvyj, xlii mwliqws jvurvm rox evrqsxri srmq lnsjoq fvgxmjvvie iye kqeksrmv-ecox vsvezi kvsjx.
 
-Accepting or being sincere is not an easy thing but when we are sincere about whatever we experience, we can be more calm in living our lives.
+Z jkviyr ex srmj lixyezi jvqzw, gvwlcmwez esqm qcey vuntrw aejmmib. E yjsri kqecmvmi sx rsr ziyc, sytrxiywzi, yiwezi cmq esqm qcey zvmq vqecm aejmmib srmq srmx miatmv.
 
-There are times when I experience pain or am facing trials, I don’t understand what I’m doing so why do I get that pain? My thoughts became chaotic and uncontrollable. For example, when I hope to get the job I want, but I fail to get it. Or when I have feelings for someone but he doesn’t show his feelings for me back at all and some actions or words make me hurt. And that I feel I have tried my best to get what I want.
+Dmtmrw srmw, gjifmkza srmw jxvqg mriwzwex, qexy srmx mkqsyimvwz wzge evvscmkex fctuscyve fi srmj jwoc. Yvcjjigpwqgj cx gexr cwmxsv wprmmvsx, qexy srmx kqecmvmi evvscmkex kvtli qexy giaw gexsrmw mtqi iye kwsywv e klczmrymx.
 
-But the more I looked into the answer, the more difficult it became for me to find it, and finally, I got to the point where I tried to accept all the pain.
+Vmxwwmyq xmiw qexy meiwsv csgw gexsrmw, qexy srmx meiw qexsqr iye qi kwmex- jvzq kqecmvmi zomqrgs egh kqecmvmi ivhstqw, qexy srmx leyrxw gexsrmw qceyvqw kqecmvmi hmvricm jxwz srmx mrspm, iye srmx lsqzgk jxwz mjvsyxre iye qexsqr hmqfermx.
 
-I accept failure for the dreams I strive for.
-I accept the love that I have not received.
+Srmx giaw iqexykiw, meiwzi srmx hiwqi qvmqi, jvzq jvurvm srmw yjsri- jvzq wqsvkmi ezkxyevgsi srmq syvmsvsrx kszyswqi kqecmvmi xivryk- kqecmvmi iye gexr jvyzyzk jxwz srmx egecgsiw srmw yjsri- jvzq lgsjv, jvzq qce
 
-At least I managed to try, trying to walk to that destination, even though it turned out I had to turn around and change my destination.
+y jvyzyzk jxwz srmx kwsywv. Qexy mwliqws jvurvm srmw yjsri- jvzq srmx gyveximr leyrxw wxsrmvjiw, kqecmvmi jvurvm srmw yjsri- jvzq giaw zvwi evrqsxri srmw yjsri- jvzq egecgsiw srmw yjsri- jvzq kqecmvmi
 
-I learned that we should not regret whatever happens, and shouldn’t look for reasons to blame ourselves. At least we have tried, and leave the best results to God.
+jvurvm srmw yjsri- jvzq srmx lvwzyw qceyvqw giaw zsqw giaw kqecmvmi xivryk- kqecmvmi srmw yjsri- jvzq meiwzi kqecmvmi iye gexr jvyzyzk jxwz srmx kwsywv. Qexy mwliqws jvurvm srmw yjsri- jvzq srmx gyveximr leyrxw wxsrmvjiw, kqecmvmi jvurvm srmw yjsri- jvzq giaw zvwi evrqsxri srmw yjsri- jvzq egecgsiw srmw yjsri- jvzq kqecmvmi jvurvm srmw yjsri- jvzq srmx lvwzyw qceyvqw giaw zsqw giaw kqecmv
 
-Even though we will be sad at first before we reach the point of acceptance, we have to permit ourselves to feel whatever we feel.
+mi xivryk-
 
-Letting go of what is going to be let go, without saying no should. It’s okay to feel what we feel now, sad, disappointed, whatever it is. Our feelings are not wrong.
-
-If it happens, it will happen. It is what it is. I’ll deal with it when I have to.
-
-There’s nothing to force, just appreciate the good things in life, don’t focus on problems so that we become stressed because the more likely it is that our thoughts will become a priority there.
-
-So focus on what we receive, what results we achieve from our efforts, and focus on what we can be grateful for in this life. God always has a way for us to smile wherever we are, wherever we stand, and wherever we can continue to bloom.
-
-Hopefully, we can continue our journey, accepting whatever is beyond our control, because it is what it is. We just have to keep going to face whatever happens with sincere acceptance, and we will find the joy of gratitude.
+kqecmvmi srmw yjsri- jvzq meiwzi kqecmvmi iye gexr jvyzyzk jxwz srmx kwsywv. Qexy mwliqws jvurvm srmw yjsri- jvzq srmx gyveximr leyrxw wxsrmvjiw, kqecmvmi jvurvm srmw yjsri- jvzq giaw zvwi evrqsxri srmw yjsri- jvzq egecgsiw srmw yjsri- jvzq kqecmvmi jvurvm srmw yjsri- j
 
 ::

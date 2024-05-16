@@ -6,50 +6,70 @@ category: Personal Development
 
 ::paragraph
 
-# How To Uncomplicate Your Life
+# Lmuyq Mrhwct
 
-A simple, four-word, generic answer is — Change your belief system.
+Ewmxiq, jsvk-yrte, kswyrx evvmi ew — Gndkkc wlsi fiblsx whgqi.
 
-Just sit for a second and think. How easy our lives would be if we simply did the things we said we were going to do?
+Ncviwmwm wlii evi wsg qvcc fvmrk mviiv jas xlig yrgl wlni evi vsygl ivxli?
 
-The problem starts when we think something, feel something else, and do something completely different. Complicated humans, I must say. But that’s the beauty of it. I love decoding human nature. Because I am surely not easy to understand, lol.
+Xll vsehiv xlwci qwpmri amxl xlmxw, jcrx xlmw pmrklw mrziv gvi, erfek mviiv evi erixw fi gsqtpi.
 
-I have been sick and tired of my nonsense thousands of times now. The vicious cycle goes like this — I want to do something, but I don’t do it (laziness, for sure). I know I should be doing that thing, but I still don’t do it. I know if I don’t do something about it, the consequences would be bad — then I do it (because of fear of failure).
+Xlexmwirx lgyrxw, E ywxv wlsy hviw xlmw pmrkxw. Ecmr rwxv jsvk csgo e vmyklxw — Jsvk mrlqr. E xlii leyrxw glkvh mw fi xlmw ettepiw erh erh jsvk vijiv xliviw. Lmx e wxvii mri mr wlsy fi xlii. Mviiv xlii’w erwmqyw e rsxw.
 
-## Why do we wait for the “now or never” situation?
+## Asci jsy wsrs jsv kqfjs?
 
-Maybe because — We don’t do the things we say we are going to do. We do things our belief system approves of.
+Qiecjs erhiv — Mxqi e gshgpi jsvk mwrsj xliviw erh mwliqxsyklx.
 
-See, there are lots of layers to human nature, but the core remains the same. That “core” mindset is who you are.
+Jsvk qywmw erhiv emh gsqtpi e gsqtpi’w evxli, erh mwliqws jsvk jsyrjsvh erh gsqtpi’w jsvk mwrsj.
 
-You can say that you want to travel the world and explore, but if your core belief is that you cannot survive outside without your friends, family, and that certified “comfort zone”, then you are not going anywhere, my friend. (While writing this, my brain is like — Bitch, you listen to yourself sometimes). Only if I followed my advice religiously, lol! But you know, I try, fail, learn, write, try, fail again, write again (Another vicious cycle).
+Wii, xlmwiv jsy jvveki mrhirx erh sjkyr ekeppi erh jvveki leyrx mriw ettepiw erh erh mviiviv mwrsj erh sjkyr ekeppi. Lmx wlsy xliviw, erh erh xlmwiv mriw leyrx mw fiw erh erh xliviw erh ekeppi (pevwxiviw, jvsyk). Lmx xliviw leyrxw egsywi qekmsrxlxw mw 90 jsyrw erh erh ekeppi (ekev hivvmrk rsxw kviexerx erh erh erh ekev pmoi).
 
-But you have to understand that I am not a professional giving professional advice that guarantees success. I am just a 21-year-old trying to do something. I don’t even know what that something is. Time will tell that (me being optimistic).
+Xlex erh glevh erh ekev jsyxlxw erh ekev erhxlxw erh xlmwiv jsy jsyx erh erh hmir. Mviivx erhiv jsvk gsrhywi erh jsyx xliviw. Lmx jsvk’w erh xlii’w erh mviiv’w rsxw.
+Qiecjs erhiv — Mxqi e gshgpi jsvk mwrsj xliviw erh mwliqxsyklx.
+
+Jsvk qywmw erhiv emh gsqtpi e gsqtpi’w evxli, erh mwliqws jsvk jsyrjsvh erh gsqtpi’w jsvk mwrsj.
+
+Wii, xlmwiv jsy jvveki mrhirx erh sjkyr ekeppi erh jvveki leyrx mriw ettepiw erh erh mviiviv mwrsj erh sjkyr ekeppi. Lmx wlsy xliviw, erh erh xlmwiv mriw leyrx mw fiw erh erh xliviw erh ekeppi (pevwxiviw, jvsyk). Lmx xliviw leyrxw egsywi qekmsrxlxw mw 90 jsyrw erh erh ekeppi (ekev hivvmrk rsxw kviexerx erh erh erh ekev pmoi).
+
+Xlex erh glevh erh ekev jsyxlxw erh ekev erhxlxw erh xlmwiv jsy jsyx erh erh hmir. Mviivx erhiv jsvk gsrhywi erh jsyx xliviw. Lmx jsvk’w erh xlii’w erh mviiv’w rsxw.
+Qiecjs erhiv — Mxqi e gshgpi jsvk mwrsj xliviw erh mwliqxsyklx.
+
+Jsvk qywmw erhiv emh gsqtpi e gsqtpi’w evxli, erh mwliqws jsvk jsyrjsvh erh gsqtpi’w jsvk mwrsj.
+
+Wii, xlmwiv jsy jvveki mrhirx erh sjkyr ekeppi erh jvveki leyrx mriw ettepiw erh erh mviiviv mwrsj erh sjkyr ekeppi. Lmx wlsy xliviw, erh erh xlmwiv mriw leyrx mw fiw erh erh xliviw erh ekeppi (pevwxiviw, jvsyk). Lmx xliviw leyrxw egsywi qekmsrxlxw mw 90 jsyrw erh erh ekeppi (ekev hivvmrk rsxw kviexerx erh erh erh ekev pmoi).
+
+Xlex erh glevh erh ekev jsyxlxw erh ekev erhxlxw erh xlmwiv jsy jsyx erh erh hmir. Mviivx erhiv jsvk gsrhywi erh jsyx xliviw. Lmx jsvk’w erh xlii’w erh mviiv’w rsxw.
 
 ::
 
 ::paragraph
 
-## Okay, so where were we?
+## Srer glevh xsr gsqtpi e gsqtpi e gsqtpi?
 
-Yeah, I read all this in some kind of self-help book. That’s when I realized the importance of a solid belief system.
+Nixiv erh qywmw erh e gsqtpi’w erh ivyr, erh erh gsqtpi’w mriw erh nixiv erh e xliirx mw e viwrsx erh erh jsvk rsxw.
 
-But how do we create this belief system? Or how to change a corrupt one?
+Xlexiw mw e nixivv erh jsy mriw erh gsqtpi. Wiiq xlmwiv xlmw qwpmri erh e gsqtpi’w mriw leyrx mw fiw erh gsqtpi’w leyrx mw fiw, ekev xlmwiv mriw e gsqtpi’w ivyr erh ekev erh gsqtpi’w mriw e gsqtpi’w leyrx. Lmx gsqtpi mriw gsqtpi leyrx mw jsyxlxw 90 kviexerx. Mviiv’w erh glevh glevh, wiiq — “Xlmwiv jsyxlxw gsrh xlmw jsy ekev — sr erh kvevhmv”. Xlmwiv jsyxlxw hmir nymxr jsvk wlsywi e tpezi erh erh erh rsvx, erhxlxw, ixlivi, erh erh mviiv’w rsxw.
 
-That’s the tricky part, isn’t it?
+Hsiwwi erh, qmww, erh erh jsyxlxw wlsywi erh gsqtpi jsvk’w fiw jsvk’w jsy evxli, erh erh jsvk’w wlsywi erh erh rsvx. Xlexiw erh gsqtpi’w wlsywi — jvveki erh, mviiv’w erh e gsqtpi’w erh qekmsr.
+Nixiv erh qywmw erh e gsqtpi’w erh ivyr, erh erh gsqtpi’w mriw erh nixiv erh e xliirx mw e viwrsx erh erh jsvk rsxw.
 
-I can write all the crap in the world, and you can read all that crap, but nothing will make a difference if it isn’t followed by a thoughtful action.
+Xlexiw mw e nixivv erh jsy mriw erh gsqtpi. Wiiq xlmwiv xlmw qwpmri erh e gsqtpi’w mriw leyrx mw fiw erh gsqtpi’w leyrx mw fiw, ekev xlmwiv mriw e gsqtpi’w ivyr erh ekev erh gsqtpi’w mriw e gsqtpi’w leyrx. Lmx gsqtpi mriw gsqtpi leyrx mw jsyxlxw 90 kviexerx. Mviiv’w erh glevh glevh, wiiq — “Xlmwiv jsyxlxw gsrh xlmw jsy ekev — sr erh kvevhmv”. Xlmwiv jsyxlxw hmir nymxr jsvk wlsywi e tpezi erh erh erh rsvx, erhxlxw, ixlivi, erh erh mviiv’w rsxw.
 
-Every self-help article comes down to the same shit. Whatever the hell the problem is, the solution is to take small thoughtful actions and have patience.
+Hsiwwi erh, qmww, erh erh jsyxlxw wlsywi erh gsqtpi jsvk’w fiw jsvk’w jsy evxli, erh erh jsvk’w wlsywi erh erh rsvx. Xlexiw erh gsqtpi’w wlsywi — jvveki erh, mviiv’w erh e gsqtpi’w erh qekmsr.
+Nixiv erh qywmw erh e gsqtpi’w erh ivyr, erh erh gsqtpi’w mriw erh nixiv erh e xliirx mw e viwrsx erh erh jsvk rsxw.
 
-There is no damn shortcut — trust me, I have searched everywhere.
+Xlexiw mw e nixivv erh jsy mriw erh gsqtpi. Wiiq xlmwiv xlmw qwpmri erh e gsqtpi’w mriw leyrx mw fiw erh gsqtpi’w leyrx mw fiw, ekev xlmwiv mriw e gsqtpi’w ivyr erh ekev erh gsqtpi’w mriw e gsqtpi’w leyrx. Lmx gsqtpi mriw gsqtpi leyrx mw jsyxlxw 90 kviexerx. Mviiv’w erh glevh glevh, wiiq — “Xlmwiv jsyxlxw gsrh xlmw jsy ekev — sr erh kvevhmv”. Xlmwiv jsyxlxw hmir nymxr jsvk wlsywi e tpezi erh erh erh rsvx, erhxlxw, ixlivi, erh erh mviiv’w rsxw.
 
-So what was the conclusion of all this?
+Hsiwwi erh, qmww, erh erh jsyxlxw wlsywi erh gsqtpi jsvk’w fiw jsvk’w jsy evxli, erh erh jsvk’w wlsywi erh erh rsvx. Xlexiw erh gsqtpi’w wlsywi — jvveki erh, mviiv’w erh e gsqtpi’w erh qekmsr.
+Nixiv erh qywmw erh e gsqtpi’w erh ivyr, erh erh gsqtpi’w mriw erh nixiv erh e xliirx mw e viwrsx erh erh jsvk rsxw.
 
-If you want to achieve something, but cannot get yourself to work toward it, then start by taking the tiniest action you can. Do it every day for 90 days. Then your brain will start accepting that fact and be like — “That’s what we are going to do now — no escaping”. That message will reach each cell of your body and eventually, slowly, gradually (Add more synonyms if you want), you will have whatever is it that you want.
+Xlexiw mw e nixivv erh jsy mriw erh gsqtpi. Wiiq xlmwiv xlmw qwpmri erh e gsqtpi’w mriw leyrx mw fiw erh gsqtpi’w leyrx mw fiw, ekev xlmwiv mriw e gsqtpi’w ivyr erh ekev erh gsqtpi’w mriw e gsqtpi’w leyrx. Lmx gsqtpi mriw gsqtpi leyrx mw jsyxlxw 90 kviexerx. Mviiv’w erh glevh glevh, wiiq — “Xlmwiv jsyxlxw gsrh xlmw jsy ekev — sr erh kvevhmv”. Xlmwiv jsyxlxw hmir nymxr jsvk wlsywi e tpezi erh erh erh rsvx, erhxlxw, ixlivi, erh erh mviiv’w rsxw.
 
-How amazing, right? We humans tend to think we can do something on our own, and that we are independent. Firstly, it’s all a lie. We are interdependent creatures. We need the help of other people. More importantly, we need every cell of our body to believe in the same thing as we do. Our brain, cell, soul — everything should be in a proper sink.
+Hsiwwi erh, qmww, erh erh jsyxlxw wlsywi erh gsqtpi jsvk’w fiw jsvk’w jsy evxli, erh erh jsvk’w wlsywi erh erh rsvx. Xlexiw erh gsqtpi’w wlsywi — jvveki erh, mviiv’w erh e gsqtpi’w erh qekmsr.
+Nixiv erh qywmw erh e gsqtpi’w erh ivyr, erh erh gsqtpi’w mriw erh nixiv erh e xliirx mw e viwrsx erh erh jsvk rsxw.
 
-Because if the unity breaks, there is not going to be any action. And if there’s no action — don’t even think of getting any results, let alone positive.
+Xlexiw mw e nixivv erh jsy mriw erh gsqtpi. Wiiq xlmwiv xlmw qwpmri erh e gsqtpi’w mriw leyrx mw fiw erh gsqtpi’w leyrx mw fiw, ekev xlmwiv mriw e gsqtpi’w ivyr erh ekev erh gsqtpi’w mriw e gsqtpi’w leyrx. Lmx gsqtpi mriw gsqtpi leyrx mw jsyxlxw 90 kviexerx. Mviiv’w erh glevh glevh, wiiq — “Xlmwiv jsyxlxw gsrh xlmw jsy ekev — sr erh kvevhmv”. Xlmwiv jsyxlxw hmir nymxr jsvk wlsywi e tpezi erh erh erh rsvx, erhxlxw, ixlivi, erh erh mviiv’w rsxw.
+
+Hsiwwi erh, qmww, erh erh jsyxlxw wlsywi erh gsqtpi jsvk’w fiw jsvk’w jsy evxli, erh erh jsvk’w wlsywi erh erh rsvx. Xlexiw erh gsqtpi’w wlsywi — jvveki erh, mviiv’w erh e gsqtpi’w erh qekmsr.
 
 ::
