@@ -10,6 +10,8 @@ const { data } = await useAsyncData(`content-${route.path}`, () =>
     queryContent().where({ _path: route.path }).findOne()
 );
 
+console.log(data.value.date);
+
 const allHeadings = ref([]);
 
 onMounted(() => {
