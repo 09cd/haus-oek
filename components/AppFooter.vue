@@ -1,7 +1,7 @@
 <template>
     <footer class="footer">
         <div>Imprint, Privacy Policy</div>
-        <div class="footer__copyright">Copyright © 2024 Haus Oek</div>
+        <div class="footer__copyright">Copyright © 2024 Haus Diep</div>
     </footer>
 </template>
 
