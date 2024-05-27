@@ -3,9 +3,8 @@ import { gsap } from "gsap";
 
 const colorMode = useColorMode();
 
-const isDarkMode = ref(false);
-
 colorMode.preference = "light";
+const isDarkMode = ref(colorMode.preference === "dark");
 
 function changeColorMode() {
     timeline.reverse();
@@ -24,6 +23,8 @@ const timeline = gsap.timeline({ paused: true });
 onMounted(() => {
     const menuButton = document.querySelector(".navbar__menu-btn");
     const closeButton = document.querySelector(".overlay__close-btn");
+
+    isDarkMode.value = colorMode.preference === "dark";
 
     gsap.set(".menu-item a", { y: 20 });
 
@@ -84,7 +85,7 @@ onMounted(() => {
             </li>
         </ul>
         <div class="navbar__logo">
-            <NuxtLink to="/" class="link">Haus Oek</NuxtLink>
+            <NuxtLink to="/" class="link">Haus Diep</NuxtLink>
         </div>
         <div class="navbar__menu-btn">Menu</div>
     </nav>
@@ -225,12 +226,15 @@ onMounted(() => {
             p {
                 clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
                 overflow: hidden;
+                height: 100%;
 
                 a {
                     padding-left: 2rem;
                     color: $white;
                     text-decoration: none;
                     display: inline-block;
+                    width: 100%;
+                    height: 100%;
 
                     @media (min-width: $bp-sm) {
                         padding-left: 8rem;
