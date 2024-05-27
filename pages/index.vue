@@ -1,4 +1,8 @@
 <script setup>
+const colorMode = useColorMode();
+
+const isDarkMode = ref(colorMode.preference === "dark");
+
 const time = ref("");
 
 const { data: posts } = await useAsyncData("blog", () =>
@@ -28,6 +32,14 @@ const formatDate = (dateString) => {
     return date.toLocaleDateString("en-US", options);
 };
 
+watch(
+    () => colorMode.preference,
+    (newVal) => {
+        isDarkMode.value = newVal === "dark";
+        console.log(isDarkMode.value);
+    }
+);
+
 let timer;
 
 onMounted(() => {
@@ -41,7 +53,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <div class="home">
+    <div :class="`home ${isDarkMode ? 'home--dark-mode' : 'home--light-mode'}`">
         <main class="home__hero">
             <div>
                 <div>{{ time }}</div>
@@ -77,6 +89,10 @@ onUnmounted(() => {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr auto auto;
+
+    background-repeat: no-repeat;
+    background-position: 75% 25%;
+    background-size: contain;
 
     &__hero {
         display: flex;
@@ -169,5 +185,13 @@ onUnmounted(() => {
     .footer {
         grid-row: 4;
     }
+}
+
+.home--light-mode {
+    background-image: url("/assets/images/portrait-black.svg");
+}
+
+.home--dark-mode {
+    background-image: url("/assets/images/portrait-white.svg");
 }
 </style>
