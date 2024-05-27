@@ -26,7 +26,7 @@ onMounted(() => {
 
     isDarkMode.value = colorMode.preference === "dark";
 
-    gsap.set(".menu-item a", { y: 20 });
+    gsap.set(".menu-item span", { y: 20 });
 
     timeline.set(".overlay", { display: "block" });
 
@@ -48,7 +48,7 @@ onMounted(() => {
     );
 
     timeline.to(
-        ".menu-item a",
+        ".menu-item span",
         {
             duration: 0.7,
             y: 0,
@@ -93,41 +93,41 @@ onMounted(() => {
         <div class="overlay__close-btn">Close</div>
         <div class="overlay__menu">
             <div class="divider"></div>
-            <div class="menu-item">
+            <NuxtLink to="/" @click="timeline.reverse()" class="menu-item">
                 <p>
-                    <NuxtLink to="/" @click="timeline.reverse()">Home</NuxtLink>
+                    <span>Home</span>
                 </p>
-            </div>
+            </NuxtLink>
             <div class="divider"></div>
-            <div class="menu-item">
+            <NuxtLink
+                to="/about-me"
+                @click="timeline.reverse()"
+                class="menu-item"
+            >
                 <p>
-                    <NuxtLink to="/about-me" @click="timeline.reverse()"
-                        >About Me</NuxtLink
-                    >
+                    <span>About Me</span>
                 </p>
-            </div>
+            </NuxtLink>
             <div class="divider"></div>
-            <div class="menu-item">
+            <NuxtLink
+                to="/contact"
+                @click="timeline.reverse()"
+                class="menu-item"
+            >
                 <p>
-                    <NuxtLink to="/contact" @click="timeline.reverse()"
-                        >Contact</NuxtLink
-                    >
+                    <span>Contact</span>
                 </p>
-            </div>
+            </NuxtLink>
             <div class="divider"></div>
-            <div class="menu-item">
+            <NuxtLink to="/blog" @click="timeline.reverse()" class="menu-item">
                 <p>
-                    <NuxtLink to="/blog" @click="timeline.reverse()"
-                        >Blog</NuxtLink
-                    >
+                    <span>Blog</span>
                 </p>
-            </div>
+            </NuxtLink>
             <div class="divider"></div>
-            <div class="menu-item">
+            <div class="menu-item" @click="changeColorMode()">
                 <p>
-                    <a class="color-mode-btn" @click="changeColorMode()"
-                        >Dark Mode</a
-                    >
+                    <span class="color-mode-btn">Dark Mode</span>
                 </p>
             </div>
         </div>
@@ -226,15 +226,15 @@ onMounted(() => {
             p {
                 clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
                 overflow: hidden;
-                height: 100%;
+                // height: 100%;
 
-                a {
+                span {
                     padding-left: 2rem;
                     color: $white;
                     text-decoration: none;
                     display: inline-block;
-                    width: 100%;
-                    height: 100%;
+                    // width: 100%;
+                    // height: 100%;
 
                     @media (min-width: $bp-sm) {
                         padding-left: 8rem;
