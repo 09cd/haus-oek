@@ -3,7 +3,7 @@
 <template>
     <div class="about-page">
         <main>
-            <h1>About Sway</h1>
+            <h1>About Me</h1>
             <div>
                 Fusce vel urna in metus faucibus maximus eget eget tortor. Proin
                 scelerisque, justo et accumsan ultricies, justo velit lobortis
@@ -40,6 +40,11 @@
     main {
         padding: 4rem 2rem 0rem;
         text-align: justify;
+        width: 100%;
+
+        @media (min-width: $bp-xl) {
+            width: 75%;
+        }
 
         @media (min-width: $bp-lg) {
             padding-left: $pad-left-lg;
